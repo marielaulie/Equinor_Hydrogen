@@ -84,6 +84,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="h_grey.png"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ZL-B6-1d8">
+                                <rect key="frame" x="983" y="742" width="77" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Neste"/>
+                                <connections>
+                                    <segue destination="VVw-HY-utt" kind="show" animates="NO" id="hes-Hy-hJP"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBS-ZT-mFz">
                                 <rect key="frame" x="216" y="181" width="648" height="273"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -95,15 +104,6 @@ Du kan nå trykke på hver farge for å lese mer.
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ZL-B6-1d8">
-                                <rect key="frame" x="983" y="742" width="77" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Neste"/>
-                                <connections>
-                                    <segue destination="VVw-HY-utt" kind="show" animates="NO" id="hes-Hy-hJP"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cqj-KZ-qJX">
                                 <rect key="frame" x="159" y="130" width="829" height="375"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -193,8 +193,8 @@ Du kan nå trykke på hver farge for å lese mer.
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trykk på grønt hydrogen for å lære mer. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocJ-AS-JwT">
-                                <rect key="frame" x="291" y="102" width="505" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trykk på grått hydrogen for å lære mer. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocJ-AS-JwT">
+                                <rect key="frame" x="291" y="102" width="498" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -266,6 +266,10 @@ Store CO2 utslipp </string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h_grey.png" translatesAutoresizingMaskIntoConstraints="NO" id="gUv-CR-c9T">
+                                <rect key="frame" x="817" y="265" width="303" height="251"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CH4 + H2O" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJo-g6-3xC">
                                 <rect key="frame" x="168" y="495" width="144" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -280,22 +284,6 @@ Store CO2 utslipp </string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Metan.png" translatesAutoresizingMaskIntoConstraints="NO" id="JFw-8m-uaZ">
-                                <rect key="frame" x="88" y="530" width="150" height="92"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h20.png" translatesAutoresizingMaskIntoConstraints="NO" id="JQ1-3t-yFg">
-                                <rect key="frame" x="234" y="554" width="121" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="co2molekyl.png" translatesAutoresizingMaskIntoConstraints="NO" id="zcF-W6-pyi">
-                                <rect key="frame" x="462" y="546" width="122" height="76"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hydrogen-3d.png" translatesAutoresizingMaskIntoConstraints="NO" id="L6f-JV-rts">
-                                <rect key="frame" x="592" y="523" width="166" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0FA-oc-q4X">
                                 <rect key="frame" x="983" y="742" width="77" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -315,8 +303,20 @@ Store CO2 utslipp </string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h_grey.png" translatesAutoresizingMaskIntoConstraints="NO" id="gUv-CR-c9T">
-                                <rect key="frame" x="817" y="265" width="303" height="251"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Metan.png" translatesAutoresizingMaskIntoConstraints="NO" id="JFw-8m-uaZ">
+                                <rect key="frame" x="88" y="530" width="150" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="co2molekyl.png" translatesAutoresizingMaskIntoConstraints="NO" id="zcF-W6-pyi">
+                                <rect key="frame" x="462" y="546" width="122" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hydrogen-3d.png" translatesAutoresizingMaskIntoConstraints="NO" id="L6f-JV-rts">
+                                <rect key="frame" x="592" y="523" width="166" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h20.png" translatesAutoresizingMaskIntoConstraints="NO" id="JQ1-3t-yFg">
+                                <rect key="frame" x="234" y="554" width="121" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -330,6 +330,9 @@ Store CO2 utslipp </string>
                         <viewLayoutGuide key="safeArea" id="AQA-Ap-mwv"/>
                     </view>
                     <navigationItem key="navigationItem" id="u52-Ih-N4C"/>
+                    <connections>
+                        <outlet property="boks" destination="AoO-Lv-r75" id="9RP-R8-3oh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QR8-ME-e0e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -374,6 +377,9 @@ Store CO2 utslipp </string>
                         <viewLayoutGuide key="safeArea" id="CWm-c5-LQl"/>
                     </view>
                     <navigationItem key="navigationItem" id="CL5-gc-2MH"/>
+                    <connections>
+                        <outlet property="boks" destination="fB2-yk-RFx" id="eDf-xK-mHB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kau-jB-GHZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -615,6 +621,12 @@ Store CO2 utslipp </string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qaJ-8d-NLM">
+                                <rect key="frame" x="968" y="50" width="77" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Hint"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -628,6 +640,7 @@ Store CO2 utslipp </string>
                     <navigationItem key="navigationItem" id="RmS-YK-7b2"/>
                     <connections>
                         <outlet property="blaa" destination="mMv-2E-Dgw" id="Gyy-U1-gg0"/>
+                        <outlet property="boks" destination="sNa-BI-izS" id="2Kd-91-2ig"/>
                         <outlet property="boks1" destination="fdi-ur-RnI" id="d7n-Ue-zYi"/>
                         <outlet property="boks2" destination="Nb2-q5-Aa0" id="2ba-IA-IeL"/>
                         <outlet property="checkMark" destination="B0H-yb-6yn" id="JV3-39-d1V"/>
@@ -1135,10 +1148,10 @@ Store CO2 utslipp </string>
             </objects>
             <point key="canvasLocation" x="1538" y="2273"/>
         </scene>
-        <!--Gratt Hydrogen2-->
+        <!--Gronn Hydrogen2-->
         <scene sceneID="yA6-hx-Jlh">
             <objects>
-                <viewController id="6Gk-Oc-aSq" customClass="GrattHydrogen2" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6Gk-Oc-aSq" customClass="GronnHydrogen2" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E2V-P0-qoH">
                         <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1226,6 +1239,9 @@ elektrisitet
                         <viewLayoutGuide key="safeArea" id="MP1-Gc-tzs"/>
                     </view>
                     <navigationItem key="navigationItem" id="QUh-EH-BeC"/>
+                    <connections>
+                        <outlet property="boks" destination="BEm-fH-aYU" id="TvH-kk-afC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ULV-3u-e8V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1296,22 +1312,6 @@ Dyrere enn grått hydrogen og fortsatt noen utslipp.</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Metan.png" translatesAutoresizingMaskIntoConstraints="NO" id="C7o-fN-xPF">
-                                <rect key="frame" x="99" y="538" width="150" height="92"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h20.png" translatesAutoresizingMaskIntoConstraints="NO" id="GVB-dR-Zzf">
-                                <rect key="frame" x="269" y="554" width="121" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="co2molekyl.png" translatesAutoresizingMaskIntoConstraints="NO" id="1tS-Y9-CJ5">
-                                <rect key="frame" x="500" y="546" width="122" height="76"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hydrogen-3d.png" translatesAutoresizingMaskIntoConstraints="NO" id="rA4-sw-01W">
-                                <rect key="frame" x="617" y="517" width="166" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OzQ-ep-7qn">
                                 <rect key="frame" x="983" y="742" width="77" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1340,6 +1340,22 @@ Dyrere enn grått hydrogen og fortsatt noen utslipp.</string>
                                 <rect key="frame" x="815" y="250" width="303" height="251"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Metan.png" translatesAutoresizingMaskIntoConstraints="NO" id="C7o-fN-xPF">
+                                <rect key="frame" x="99" y="538" width="150" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h20.png" translatesAutoresizingMaskIntoConstraints="NO" id="GVB-dR-Zzf">
+                                <rect key="frame" x="269" y="554" width="121" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="co2molekyl.png" translatesAutoresizingMaskIntoConstraints="NO" id="1tS-Y9-CJ5">
+                                <rect key="frame" x="500" y="546" width="122" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hydrogen-3d.png" translatesAutoresizingMaskIntoConstraints="NO" id="rA4-sw-01W">
+                                <rect key="frame" x="617" y="517" width="166" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -1351,15 +1367,18 @@ Dyrere enn grått hydrogen og fortsatt noen utslipp.</string>
                         <viewLayoutGuide key="safeArea" id="EB7-uV-f3Y"/>
                     </view>
                     <navigationItem key="navigationItem" id="QpU-Yh-QoX"/>
+                    <connections>
+                        <outlet property="boks" destination="2il-uc-dgt" id="AJL-PC-jMy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tj6-mh-yIz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1537.7777777777778" y="2945.9259259259256"/>
         </scene>
-        <!--Bla Hydrogen-->
+        <!--Gratt Hydrogen-->
         <scene sceneID="0so-Ot-qhq">
             <objects>
-                <viewController id="g8b-nb-esK" customClass="BlaHydrogen" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="g8b-nb-esK" customClass="GrattHydrogen" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="geh-Tw-sCh">
                         <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

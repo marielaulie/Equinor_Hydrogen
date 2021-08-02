@@ -12,6 +12,11 @@ class Oppgave2: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        boks.backgroundColor = .white
+        boks.layer.cornerRadius = 25.0
+        boks.layer.borderWidth = 1/UIScreen.main.nativeScale
+        boks.layer.borderColor = UIColor.black.cgColor
+
 
         // Do any additional setup after loading the view.
     }
@@ -59,6 +64,7 @@ class Oppgave2: UIViewController {
         }
         }
 
+    @IBOutlet weak var boks: UIImageView!
     @IBOutlet weak var graa: UIButton!
     @IBOutlet weak var blaa: UIButton!
     @IBOutlet weak var boks1: UIButton!
