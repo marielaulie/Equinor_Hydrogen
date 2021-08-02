@@ -13,6 +13,41 @@
 		7303E5C726B3E1030062F69A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5C526B3E1030062F69A /* Main.storyboard */; };
 		7303E5C926B3E10B0062F69A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5C826B3E10B0062F69A /* Assets.xcassets */; };
 		7303E5CC26B3E10B0062F69A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5CA26B3E10B0062F69A /* LaunchScreen.storyboard */; };
+		7303E5D426B3FF0F0062F69A /* Hydrogen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7303E5D326B3FF0F0062F69A /* Hydrogen.swift */; };
+		7303E5D926B3FFAF0062F69A /* background_1-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5D526B3FFAE0062F69A /* background_1-2.png */; };
+		7303E5DA26B3FFAF0062F69A /* h_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5D626B3FFAE0062F69A /* h_green.png */; };
+		7303E5DB26B3FFAF0062F69A /* h_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5D726B3FFAF0062F69A /* h_blue.png */; };
+		7303E5DC26B3FFAF0062F69A /* h_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5D826B3FFAF0062F69A /* h_grey.png */; };
+		7303E5DF26B405580062F69A /* H20_a.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5DD26B405570062F69A /* H20_a.png */; };
+		7303E5E026B405580062F69A /* green_wind_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5DE26B405570062F69A /* green_wind_b.png */; };
+		7303E5E626B4087F0062F69A /* Oppgave1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7303E5E526B4087F0062F69A /* Oppgave1.swift */; };
+		7303E5E826B4088E0062F69A /* Oppgave2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7303E5E726B4088E0062F69A /* Oppgave2.swift */; };
+		7303E5EA26B408970062F69A /* Oppgave3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7303E5E926B408970062F69A /* Oppgave3.swift */; };
+		7303E5F126B41F0C0062F69A /* t_cold.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5EB26B41F0A0062F69A /* t_cold.png */; };
+		7303E5F226B41F0C0062F69A /* money_poor.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5EC26B41F0B0062F69A /* money_poor.png */; };
+		7303E5F326B41F0C0062F69A /* t_hot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5ED26B41F0B0062F69A /* t_hot.png */; };
+		7303E5F426B41F0C0062F69A /* money_middle.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5EE26B41F0B0062F69A /* money_middle.png */; };
+		7303E5F526B41F0C0062F69A /* money_rich.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5EF26B41F0C0062F69A /* money_rich.png */; };
+		7303E5F626B41F0C0062F69A /* t_warm.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5F026B41F0C0062F69A /* t_warm.png */; };
+		7303E60026B423960062F69A /* h2_plane.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5F726B423930062F69A /* h2_plane.png */; };
+		7303E60126B423960062F69A /* h2_ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5F826B423940062F69A /* h2_ship.png */; };
+		7303E60226B423960062F69A /* h2_heating.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5F926B423940062F69A /* h2_heating.png */; };
+		7303E60326B423960062F69A /* h2_industry.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5FA26B423940062F69A /* h2_industry.png */; };
+		7303E60426B423960062F69A /* h2_buss.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5FB26B423940062F69A /* h2_buss.png */; };
+		7303E60526B423960062F69A /* h2_ferry.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5FC26B423950062F69A /* h2_ferry.png */; };
+		7303E60626B423960062F69A /* h2_train.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5FD26B423950062F69A /* h2_train.png */; };
+		7303E60726B423960062F69A /* h2_truck.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5FE26B423960062F69A /* h2_truck.png */; };
+		7303E60826B423960062F69A /* h2_bil.png in Resources */ = {isa = PBXBuildFile; fileRef = 7303E5FF26B423960062F69A /* h2_bil.png */; };
+		73663E6C26B8777D00518123 /* GrattHydrogen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73663E6B26B8777D00518123 /* GrattHydrogen2.swift */; };
+		73663E6E26B8779F00518123 /* GrattHydrogen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73663E6D26B8779F00518123 /* GrattHydrogen.swift */; };
+		73663E7026B877B400518123 /* GronnHydrogen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73663E6F26B877B400518123 /* GronnHydrogen.swift */; };
+		73663E7226B877BF00518123 /* GronnHydrogen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73663E7126B877BF00518123 /* GronnHydrogen2.swift */; };
+		73663E7426B877C900518123 /* BlaHydrogen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73663E7326B877C900518123 /* BlaHydrogen.swift */; };
+		73663E7626B877D400518123 /* BlaHydrogen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73663E7526B877D400518123 /* BlaHydrogen2.swift */; };
+		73663E7C26B8815F00518123 /* 1-12387_cartoon-cage-transparent-background-clipart.png in Resources */ = {isa = PBXBuildFile; fileRef = 73663E7B26B8815E00518123 /* 1-12387_cartoon-cage-transparent-background-clipart.png */; };
+		73B6730326B8726000325215 /* Fangst_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6730026B8725F00325215 /* Fangst_1.swift */; };
+		73B6730426B8726000325215 /* Spill3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6730126B8725F00325215 /* Spill3.swift */; };
+		73B6730526B8726000325215 /* Ord3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6730226B8726000325215 /* Ord3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +59,45 @@
 		7303E5C826B3E10B0062F69A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7303E5CB26B3E10B0062F69A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7303E5CD26B3E10B0062F69A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7303E5D326B3FF0F0062F69A /* Hydrogen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrogen.swift; sourceTree = "<group>"; };
+		7303E5D526B3FFAE0062F69A /* background_1-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_1-2.png"; sourceTree = "<group>"; };
+		7303E5D626B3FFAE0062F69A /* h_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h_green.png; sourceTree = "<group>"; };
+		7303E5D726B3FFAF0062F69A /* h_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h_blue.png; sourceTree = "<group>"; };
+		7303E5D826B3FFAF0062F69A /* h_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h_grey.png; sourceTree = "<group>"; };
+		7303E5DD26B405570062F69A /* H20_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = H20_a.png; sourceTree = "<group>"; };
+		7303E5DE26B405570062F69A /* green_wind_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_wind_b.png; sourceTree = "<group>"; };
+		7303E5E526B4087F0062F69A /* Oppgave1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oppgave1.swift; sourceTree = "<group>"; };
+		7303E5E726B4088E0062F69A /* Oppgave2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oppgave2.swift; sourceTree = "<group>"; };
+		7303E5E926B408970062F69A /* Oppgave3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oppgave3.swift; sourceTree = "<group>"; };
+		7303E5EB26B41F0A0062F69A /* t_cold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t_cold.png; sourceTree = "<group>"; };
+		7303E5EC26B41F0B0062F69A /* money_poor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money_poor.png; sourceTree = "<group>"; };
+		7303E5ED26B41F0B0062F69A /* t_hot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t_hot.png; sourceTree = "<group>"; };
+		7303E5EE26B41F0B0062F69A /* money_middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money_middle.png; sourceTree = "<group>"; };
+		7303E5EF26B41F0C0062F69A /* money_rich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money_rich.png; sourceTree = "<group>"; };
+		7303E5F026B41F0C0062F69A /* t_warm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t_warm.png; sourceTree = "<group>"; };
+		7303E5F726B423930062F69A /* h2_plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h2_plane.png; sourceTree = "<group>"; };
+		7303E5F826B423940062F69A /* h2_ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h2_ship.png; sourceTree = "<group>"; };
+		7303E5F926B423940062F69A /* h2_heating.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h2_heating.png; sourceTree = "<group>"; };
+		7303E5FA26B423940062F69A /* h2_industry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h2_industry.png; sourceTree = "<group>"; };
+		7303E5FB26B423940062F69A /* h2_buss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h2_buss.png; sourceTree = "<group>"; };
+		7303E5FC26B423950062F69A /* h2_ferry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h2_ferry.png; sourceTree = "<group>"; };
+		7303E5FD26B423950062F69A /* h2_train.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h2_train.png; sourceTree = "<group>"; };
+		7303E5FE26B423960062F69A /* h2_truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h2_truck.png; sourceTree = "<group>"; };
+		7303E5FF26B423960062F69A /* h2_bil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h2_bil.png; sourceTree = "<group>"; };
+		73663E6B26B8777D00518123 /* GrattHydrogen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrattHydrogen2.swift; sourceTree = "<group>"; };
+		73663E6D26B8779F00518123 /* GrattHydrogen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrattHydrogen.swift; sourceTree = "<group>"; };
+		73663E6F26B877B400518123 /* GronnHydrogen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GronnHydrogen.swift; sourceTree = "<group>"; };
+		73663E7126B877BF00518123 /* GronnHydrogen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GronnHydrogen2.swift; sourceTree = "<group>"; };
+		73663E7326B877C900518123 /* BlaHydrogen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlaHydrogen.swift; sourceTree = "<group>"; };
+		73663E7526B877D400518123 /* BlaHydrogen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlaHydrogen2.swift; sourceTree = "<group>"; };
+		73663E7726B87D4D00518123 /* Metan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Metan.png; sourceTree = "<group>"; };
+		73663E7826B87D5300518123 /* co2molekyl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = co2molekyl.png; sourceTree = "<group>"; };
+		73663E7926B87D5400518123 /* h20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h20.png; sourceTree = "<group>"; };
+		73663E7A26B87D5400518123 /* hydrogen-3d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hydrogen-3d.png"; sourceTree = "<group>"; };
+		73663E7B26B8815E00518123 /* 1-12387_cartoon-cage-transparent-background-clipart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-12387_cartoon-cage-transparent-background-clipart.png"; sourceTree = "<group>"; };
+		73B6730026B8725F00325215 /* Fangst_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fangst_1.swift; sourceTree = "<group>"; };
+		73B6730126B8725F00325215 /* Spill3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spill3.swift; sourceTree = "<group>"; };
+		73B6730226B8726000325215 /* Ord3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ord3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +114,32 @@
 		7303E5B326B3E1030062F69A = {
 			isa = PBXGroup;
 			children = (
+				73663E7B26B8815E00518123 /* 1-12387_cartoon-cage-transparent-background-clipart.png */,
+				73663E7826B87D5300518123 /* co2molekyl.png */,
+				73663E7926B87D5400518123 /* h20.png */,
+				73663E7A26B87D5400518123 /* hydrogen-3d.png */,
+				73663E7726B87D4D00518123 /* Metan.png */,
+				7303E5FF26B423960062F69A /* h2_bil.png */,
+				7303E5FB26B423940062F69A /* h2_buss.png */,
+				7303E5FC26B423950062F69A /* h2_ferry.png */,
+				7303E5F926B423940062F69A /* h2_heating.png */,
+				7303E5FA26B423940062F69A /* h2_industry.png */,
+				7303E5F726B423930062F69A /* h2_plane.png */,
+				7303E5F826B423940062F69A /* h2_ship.png */,
+				7303E5FD26B423950062F69A /* h2_train.png */,
+				7303E5FE26B423960062F69A /* h2_truck.png */,
+				7303E5EE26B41F0B0062F69A /* money_middle.png */,
+				7303E5EC26B41F0B0062F69A /* money_poor.png */,
+				7303E5EF26B41F0C0062F69A /* money_rich.png */,
+				7303E5EB26B41F0A0062F69A /* t_cold.png */,
+				7303E5ED26B41F0B0062F69A /* t_hot.png */,
+				7303E5F026B41F0C0062F69A /* t_warm.png */,
+				7303E5DE26B405570062F69A /* green_wind_b.png */,
+				7303E5DD26B405570062F69A /* H20_a.png */,
+				7303E5D526B3FFAE0062F69A /* background_1-2.png */,
+				7303E5D726B3FFAF0062F69A /* h_blue.png */,
+				7303E5D626B3FFAE0062F69A /* h_green.png */,
+				7303E5D826B3FFAF0062F69A /* h_grey.png */,
 				7303E5BE26B3E1030062F69A /* Equinor_Hydrogen */,
 				7303E5BD26B3E1030062F69A /* Products */,
 			);
@@ -59,6 +159,19 @@
 				7303E5BF26B3E1030062F69A /* AppDelegate.swift */,
 				7303E5C126B3E1030062F69A /* SceneDelegate.swift */,
 				7303E5C326B3E1030062F69A /* ViewController.swift */,
+				7303E5D326B3FF0F0062F69A /* Hydrogen.swift */,
+				73B6730026B8725F00325215 /* Fangst_1.swift */,
+				73B6730226B8726000325215 /* Ord3.swift */,
+				73B6730126B8725F00325215 /* Spill3.swift */,
+				73663E6F26B877B400518123 /* GronnHydrogen.swift */,
+				73663E7126B877BF00518123 /* GronnHydrogen2.swift */,
+				73663E7326B877C900518123 /* BlaHydrogen.swift */,
+				73663E7526B877D400518123 /* BlaHydrogen2.swift */,
+				73663E6D26B8779F00518123 /* GrattHydrogen.swift */,
+				73663E6B26B8777D00518123 /* GrattHydrogen2.swift */,
+				7303E5E526B4087F0062F69A /* Oppgave1.swift */,
+				7303E5E726B4088E0062F69A /* Oppgave2.swift */,
+				7303E5E926B408970062F69A /* Oppgave3.swift */,
 				7303E5C526B3E1030062F69A /* Main.storyboard */,
 				7303E5C826B3E10B0062F69A /* Assets.xcassets */,
 				7303E5CA26B3E10B0062F69A /* LaunchScreen.storyboard */,
@@ -125,6 +238,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73663E7C26B8815F00518123 /* 1-12387_cartoon-cage-transparent-background-clipart.png in Resources */,
+				7303E60026B423960062F69A /* h2_plane.png in Resources */,
+				7303E60126B423960062F69A /* h2_ship.png in Resources */,
+				7303E60226B423960062F69A /* h2_heating.png in Resources */,
+				7303E60326B423960062F69A /* h2_industry.png in Resources */,
+				7303E60426B423960062F69A /* h2_buss.png in Resources */,
+				7303E60526B423960062F69A /* h2_ferry.png in Resources */,
+				7303E60626B423960062F69A /* h2_train.png in Resources */,
+				7303E60726B423960062F69A /* h2_truck.png in Resources */,
+				7303E60826B423960062F69A /* h2_bil.png in Resources */,
+				7303E5F126B41F0C0062F69A /* t_cold.png in Resources */,
+				7303E5F226B41F0C0062F69A /* money_poor.png in Resources */,
+				7303E5F326B41F0C0062F69A /* t_hot.png in Resources */,
+				7303E5F426B41F0C0062F69A /* money_middle.png in Resources */,
+				7303E5F526B41F0C0062F69A /* money_rich.png in Resources */,
+				7303E5F626B41F0C0062F69A /* t_warm.png in Resources */,
+				7303E5DF26B405580062F69A /* H20_a.png in Resources */,
+				7303E5E026B405580062F69A /* green_wind_b.png in Resources */,
+				7303E5D926B3FFAF0062F69A /* background_1-2.png in Resources */,
+				7303E5DA26B3FFAF0062F69A /* h_green.png in Resources */,
+				7303E5DB26B3FFAF0062F69A /* h_blue.png in Resources */,
+				7303E5DC26B3FFAF0062F69A /* h_grey.png in Resources */,
 				7303E5CC26B3E10B0062F69A /* LaunchScreen.storyboard in Resources */,
 				7303E5C926B3E10B0062F69A /* Assets.xcassets in Resources */,
 				7303E5C726B3E1030062F69A /* Main.storyboard in Resources */,
@@ -139,8 +274,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				7303E5C426B3E1030062F69A /* ViewController.swift in Sources */,
+				73B6730426B8726000325215 /* Spill3.swift in Sources */,
+				73663E6C26B8777D00518123 /* GrattHydrogen2.swift in Sources */,
+				73B6730326B8726000325215 /* Fangst_1.swift in Sources */,
+				7303E5D426B3FF0F0062F69A /* Hydrogen.swift in Sources */,
+				73663E7226B877BF00518123 /* GronnHydrogen2.swift in Sources */,
+				73B6730526B8726000325215 /* Ord3.swift in Sources */,
 				7303E5C026B3E1030062F69A /* AppDelegate.swift in Sources */,
+				73663E6E26B8779F00518123 /* GrattHydrogen.swift in Sources */,
+				7303E5EA26B408970062F69A /* Oppgave3.swift in Sources */,
+				7303E5E626B4087F0062F69A /* Oppgave1.swift in Sources */,
+				7303E5E826B4088E0062F69A /* Oppgave2.swift in Sources */,
+				73663E7026B877B400518123 /* GronnHydrogen.swift in Sources */,
 				7303E5C226B3E1030062F69A /* SceneDelegate.swift in Sources */,
+				73663E7626B877D400518123 /* BlaHydrogen2.swift in Sources */,
+				73663E7426B877C900518123 /* BlaHydrogen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
