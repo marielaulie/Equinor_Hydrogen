@@ -63,6 +63,10 @@
 		73FF3BD626B8FCD2001FD25B /* Skjermbilde 2021-08-03 kl. 06.24.49.png in Resources */ = {isa = PBXBuildFile; fileRef = 73FF3BD226B8FCD2001FD25B /* Skjermbilde 2021-08-03 kl. 06.24.49.png */; };
 		73FF3BD826B90032001FD25B /* Quiz5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BD726B90032001FD25B /* Quiz5.swift */; };
 		73FF3BDA26B9003D001FD25B /* Quiz6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BD926B9003D001FD25B /* Quiz6.swift */; };
+		73FF3BDC26B901AD001FD25B /* Popup1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BDB26B901AD001FD25B /* Popup1.swift */; };
+		73FF3BDE26B901B9001FD25B /* Popup2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BDD26B901B9001FD25B /* Popup2.swift */; };
+		73FF3BE026B901CD001FD25B /* Popup3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BDF26B901CD001FD25B /* Popup3.swift */; };
+		73FF3BE226B901D7001FD25B /* Popup4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BE126B901D7001FD25B /* Popup4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -128,6 +132,10 @@
 		73FF3BD226B8FCD2001FD25B /* Skjermbilde 2021-08-03 kl. 06.24.49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Skjermbilde 2021-08-03 kl. 06.24.49.png"; sourceTree = "<group>"; };
 		73FF3BD726B90032001FD25B /* Quiz5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz5.swift; sourceTree = "<group>"; };
 		73FF3BD926B9003D001FD25B /* Quiz6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz6.swift; sourceTree = "<group>"; };
+		73FF3BDB26B901AD001FD25B /* Popup1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup1.swift; sourceTree = "<group>"; };
+		73FF3BDD26B901B9001FD25B /* Popup2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup2.swift; sourceTree = "<group>"; };
+		73FF3BDF26B901CD001FD25B /* Popup3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup3.swift; sourceTree = "<group>"; };
+		73FF3BE126B901D7001FD25B /* Popup4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +225,10 @@
 				73FF3BCD26B8F6D5001FD25B /* Quiz4.swift */,
 				73FF3BD726B90032001FD25B /* Quiz5.swift */,
 				73FF3BD926B9003D001FD25B /* Quiz6.swift */,
+				73FF3BDB26B901AD001FD25B /* Popup1.swift */,
+				73FF3BDD26B901B9001FD25B /* Popup2.swift */,
+				73FF3BDF26B901CD001FD25B /* Popup3.swift */,
+				73FF3BE126B901D7001FD25B /* Popup4.swift */,
 				7303E5C526B3E1030062F69A /* Main.storyboard */,
 				7303E5C826B3E10B0062F69A /* Assets.xcassets */,
 				7303E5CA26B3E10B0062F69A /* LaunchScreen.storyboard */,
@@ -324,7 +336,9 @@
 			files = (
 				7303E5C426B3E1030062F69A /* ViewController.swift in Sources */,
 				73B6730426B8726000325215 /* Spill3.swift in Sources */,
+				73FF3BE026B901CD001FD25B /* Popup3.swift in Sources */,
 				73663E6C26B8777D00518123 /* GrattHydrogen2.swift in Sources */,
+				73FF3BDE26B901B9001FD25B /* Popup2.swift in Sources */,
 				73B6730326B8726000325215 /* Fangst_1.swift in Sources */,
 				73FF3BC626B8F4D4001FD25B /* Oppgave8.swift in Sources */,
 				73FF3BC026B8F3F6001FD25B /* Oppgave5.swift in Sources */,
@@ -333,6 +347,7 @@
 				73FF3BCA26B8F6C0001FD25B /* Quiz2.swift in Sources */,
 				73B6730526B8726000325215 /* Ord3.swift in Sources */,
 				7303E5C026B3E1030062F69A /* AppDelegate.swift in Sources */,
+				73FF3BE226B901D7001FD25B /* Popup4.swift in Sources */,
 				73FF3BC826B8F6B4001FD25B /* Quiz1.swift in Sources */,
 				73FF3BDA26B9003D001FD25B /* Quiz6.swift in Sources */,
 				73FF3BD826B90032001FD25B /* Quiz5.swift in Sources */,
@@ -346,6 +361,7 @@
 				73FF3BCC26B8F6CB001FD25B /* Quiz3.swift in Sources */,
 				7303E5C226B3E1030062F69A /* SceneDelegate.swift in Sources */,
 				73663E7626B877D400518123 /* BlaHydrogen2.swift in Sources */,
+				73FF3BDC26B901AD001FD25B /* Popup1.swift in Sources */,
 				73FF3BBE26B8F3D0001FD25B /* Oppgave4.swift in Sources */,
 				73FF3BC226B8F407001FD25B /* Oppgave6.swift in Sources */,
 				73663E7426B877C900518123 /* BlaHydrogen.swift in Sources */,

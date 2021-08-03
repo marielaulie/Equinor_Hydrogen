@@ -33,6 +33,7 @@ class Quiz2: UIViewController {
         altB.backgroundColor = .white
         altA.backgroundColor = .systemRed
         feil.setTitleColor(.systemRed, for: .normal)
+        feil.backgroundColor = .white
         
     }
     @IBAction func trykkB(_ sender: Any) {
@@ -40,6 +41,7 @@ class Quiz2: UIViewController {
         altB.backgroundColor = .systemRed
         altA.backgroundColor = .white
         feil.setTitleColor(.systemRed, for: .normal)
+        feil.backgroundColor = .white
     }
     @IBAction func trykkC(_ sender: Any) {
         altC.backgroundColor = .systemGreen
