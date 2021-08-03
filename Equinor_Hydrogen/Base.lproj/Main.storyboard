@@ -255,7 +255,7 @@ Du kan nå trykke på hver farge for å lære mer.
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ChY-94-eBa">
                                 <rect key="frame" x="143" y="584" width="187" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Fordeler:
+                                <string key="text">Fordel:
 - Den rimeligste produksjonsmetoden per i dag. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -282,7 +282,7 @@ Du kan nå trykke på hver farge for å lære mer.
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ob6-n6-fud">
                                 <rect key="frame" x="542" y="584" width="187" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Ulemper: 
+                                <string key="text">Ulempe: 
 - CO2-utslipp tilknyttet produksjon </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1102,8 +1102,7 @@ kalles elektrolyse. Vann (H2O) blir spaltet (delt) til hydrogen og oksygen. Dett
                                 <string key="text">Ulemper: 
 - Teknologien er dyr per i dag
 - Krever mye fornybar
-elektrisitet
-</string>
+elektrisitet</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1161,7 +1160,7 @@ elektrisitet
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Amd-Jz-f08">
                                 <rect key="frame" x="63" y="201" width="758" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text"> Blir på samme måte som grått hydrogen produsert fra naturgass. Forskjellen er at man ved produksjon av blått hydrogen benytter karbonfangst og lagring(CCS). Dette gjør at CO2 ikke slippes ut i Atmosfæren. Med dagens teknologi blir utslippene blir redusert med ca. 95%</string>
+                                <string key="text"> Blir på samme måte som grått hydrogen produsert fra naturgass. Forskjellen er at man ved produksjon av blått hydrogen benytter karbonfangst og lagring(CCS). Dette gjør at CO2 ikke slippes ut i Atmosfæren. Med dagens teknologi blir utslippene redusert med ca. 95%</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1488,6 +1487,10 @@ Dette vil endre seg i fremtiden, avhengig av hvor raske fremskritt som gjøres m
                                 <rect key="frame" x="0.0" y="-47" width="1080" height="874"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ecO-is-aj9">
+                                <rect key="frame" x="175" y="128" width="735" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ECn-Vm-o9W">
                                 <rect key="frame" x="416" y="282" width="249" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1546,17 +1549,13 @@ Dette vil endre seg i fremtiden, avhengig av hvor raske fremskritt som gjøres m
                                     <segue destination="8rv-lk-Bmk" kind="show" id="vaF-So-vr0"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hvilken to typer Hydrogenproduksjon er de mest miljøvennlige? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygj-MT-xGt">
-                                <rect key="frame" x="201" y="177" width="682" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hvilken to typer Hydrogenproduksjon er de mest miljøvennlige? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G4p-U5-ppD">
+                                <rect key="frame" x="291" y="162" width="521" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ecO-is-aj9">
-                                <rect key="frame" x="175" y="128" width="735" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="BMo-oY-cYz"/>
@@ -1633,7 +1632,7 @@ Dette vil endre seg i fremtiden, avhengig av hvor raske fremskritt som gjøres m
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bjx-ek-by1">
-                                <rect key="frame" x="169" y="195" width="148" height="143"/>
+                                <rect key="frame" x="49" y="204" width="148" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="h2_bil.png"/>
                                 <connections>
@@ -1649,11 +1648,19 @@ Dette vil endre seg i fremtiden, avhengig av hvor raske fremskritt som gjøres m
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7r-pm-5OW">
-                                <rect key="frame" x="786" y="195" width="148" height="143"/>
+                                <rect key="frame" x="676" y="204" width="148" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="h2_train.png"/>
                                 <connections>
                                     <action selector="trykkTog:" destination="WpN-lX-oEG" eventType="touchUpInside" id="rlw-zL-fsC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="INc-K8-5w1">
+                                <rect key="frame" x="876" y="204" width="148" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="h2_battery.png"/>
+                                <connections>
+                                    <action selector="trykkBatteri:" destination="WpN-lX-oEG" eventType="touchUpInside" id="Xrg-gb-uJ1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIp-iQ-lOm">
@@ -1681,7 +1688,7 @@ Dette vil endre seg i fremtiden, avhengig av hvor raske fremskritt som gjøres m
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHG-FI-xqC">
-                                <rect key="frame" x="576" y="195" width="148" height="143"/>
+                                <rect key="frame" x="466" y="204" width="148" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="h2_truck.png"/>
                                 <connections>
@@ -1689,7 +1696,7 @@ Dette vil endre seg i fremtiden, avhengig av hvor raske fremskritt som gjøres m
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WKQ-En-1gN">
-                                <rect key="frame" x="366" y="195" width="148" height="143"/>
+                                <rect key="frame" x="268" y="204" width="148" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="h2_buss.png"/>
                                 <connections>
@@ -1757,6 +1764,7 @@ Dette vil endre seg i fremtiden, avhengig av hvor raske fremskritt som gjøres m
                     </view>
                     <navigationItem key="navigationItem" id="eVp-Ag-f19"/>
                     <connections>
+                        <outlet property="batteri" destination="INc-K8-5w1" id="juh-lS-X8l"/>
                         <outlet property="bil" destination="Bjx-ek-by1" id="o7g-8r-fga"/>
                         <outlet property="buss" destination="WKQ-En-1gN" id="M05-zO-rMz"/>
                         <outlet property="feltBilde" destination="TwW-Cn-HNL" id="TUT-1v-YXb"/>
@@ -1789,10 +1797,10 @@ Dette vil endre seg i fremtiden, avhengig av hvor raske fremskritt som gjøres m
                                 <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nå skal dere bygge verdikjedene til de tre ulike Hydrogen produksjonene" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G24-S9-nta">
-                                <rect key="frame" x="20" y="68" width="454" height="56"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nå skal dere bygge opp produksjonsprossen, også kalt verdikjeden, til de tre ulike hydrogenfargene." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G24-S9-nta">
+                                <rect key="frame" x="10" y="53" width="475" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1807,12 +1815,12 @@ Dette vil endre seg i fremtiden, avhengig av hvor raske fremskritt som gjøres m
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="52"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_ccs.png" translatesAutoresizingMaskIntoConstraints="NO" id="I68-oF-09H">
-                                <rect key="frame" x="287" y="156" width="100" height="106"/>
+                                <rect key="frame" x="392" y="156" width="100" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="52"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_H2store.png" translatesAutoresizingMaskIntoConstraints="NO" id="P5F-GP-QXK">
-                                <rect key="frame" x="385" y="156" width="110" height="106"/>
+                                <rect key="frame" x="290" y="156" width="110" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="52"/>
                             </imageView>
@@ -1822,14 +1830,56 @@ Dette vil endre seg i fremtiden, avhengig av hvor raske fremskritt som gjøres m
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="72"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MkL-eP-PQH">
-                                <rect key="frame" x="999" y="752" width="61" height="38"/>
+                                <rect key="frame" x="954" y="742" width="86" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="21"/>
-                                <state key="normal" title="Neste"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                <state key="normal" title="Neste">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
-                                    <segue destination="Jc7-Ll-OnC" kind="show" id="547-vN-415"/>
+                                    <segue destination="h7o-2T-r1d" kind="show" id="v7u-8q-NSi"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grått H2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYe-aS-ozT">
+                                <rect key="frame" x="19" y="260" width="66" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blått H2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCj-EG-G4x">
+                                <rect key="frame" x="117" y="260" width="62" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grønt H2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOT-nE-BNO">
+                                <rect key="frame" x="212" y="260" width="70" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CCS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIm-qF-08a">
+                                <rect key="frame" x="425" y="260" width="34" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lagring av H2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8B5-SH-Dbs">
+                                <rect key="frame" x="293" y="259" width="107" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.down" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="a9r-aa-ZCX">
+                                <rect key="frame" x="887" y="660" width="220" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.94878572230000002" green="0.24022653699999999" blue="0.18167141079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="HRc-3n-qpr"/>
@@ -1838,7 +1888,7 @@ Dette vil endre seg i fremtiden, avhengig av hvor raske fremskritt som gjøres m
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WBQ-Mk-agC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="856.66666666666663" y="4523.7037037037035"/>
+            <point key="canvasLocation" x="856.66666666666663" y="4543.7037037037035"/>
         </scene>
         <!--Quiz5-->
         <scene sceneID="I7L-f8-cPg">
@@ -1868,6 +1918,9 @@ Dette vil endre seg i fremtiden, avhengig av hvor raske fremskritt som gjøres m
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Neste"/>
+                                <connections>
+                                    <segue destination="dQN-CZ-ekN" kind="show" id="qw1-1G-4hh"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Desverre, feil svar!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjk-cd-HaY">
                                 <rect key="frame" x="442" y="270" width="197" height="30"/>
@@ -1919,6 +1972,7 @@ Dette vil endre seg i fremtiden, avhengig av hvor raske fremskritt som gjøres m
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_H2store.png" translatesAutoresizingMaskIntoConstraints="NO" id="AGy-jW-u4w">
                                 <rect key="frame" x="385" y="156" width="110" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="52"/>
                             </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_grey.png" translatesAutoresizingMaskIntoConstraints="NO" id="2h1-HB-1UC">
@@ -1937,19 +1991,7 @@ Dette vil endre seg i fremtiden, avhengig av hvor raske fremskritt som gjøres m
                                 <state key="normal" title="Riktig! Neste">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-                                <connections>
-                                    <segue destination="yA2-oh-V4a" kind="show" id="I8R-4d-2aS"/>
-                                </connections>
                             </button>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="minus" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ulx-1M-Okh">
-                                <rect key="frame" x="20" y="267.5" width="103" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="bch-hE-XuT" appends="YES" id="rif-tU-Ddi"/>
-                                </connections>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pig-8E-aKN">
                                 <rect key="frame" x="620" y="340" width="116" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1976,7 +2018,6 @@ Dette vil endre seg i fremtiden, avhengig av hvor raske fremskritt som gjøres m
                         <outlet property="graa" destination="2h1-HB-1UC" id="ojz-da-AfL"/>
                         <outlet property="graaRiktig" destination="Pig-8E-aKN" id="NVL-jc-dOl"/>
                         <outlet property="neste" destination="mdt-cx-D8r" id="ftb-Ol-tZB"/>
-                        <outlet property="ror" destination="ulx-1M-Okh" id="aVE-iv-YYp"/>
                         <outlet property="rorRiktig" destination="g6P-cE-MrC" id="8in-W6-h6Z"/>
                     </connections>
                 </viewController>
@@ -1991,8 +2032,9 @@ Dette vil endre seg i fremtiden, avhengig av hvor raske fremskritt som gjøres m
                         <action selector="handlePan3:" destination="Jc7-Ll-OnC" id="VdV-6k-y24"/>
                     </connections>
                 </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="rcI-vW-QEK"/>
             </objects>
-            <point key="canvasLocation" x="857" y="5231"/>
+            <point key="canvasLocation" x="246" y="5218"/>
         </scene>
         <!--Kart Spill3-->
         <scene sceneID="NZs-s7-PvJ">
@@ -2107,7 +2149,7 @@ Dette vil endre seg i fremtiden, avhengig av hvor raske fremskritt som gjøres m
                     </connections>
                 </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="856.66666666666663" y="5927.4074074074069"/>
+            <point key="canvasLocation" x="873" y="5924"/>
         </scene>
         <!--Kart Spill4-->
         <scene sceneID="S35-EJ-pGg">
@@ -2644,7 +2686,7 @@ CCS = Karbonfangst og lagring
             <objects>
                 <viewController id="XkM-IN-VzC" customClass="Quiz6" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SJP-8V-UkL">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q14-ip-9IK">
@@ -2740,7 +2782,7 @@ CCS = Karbonfangst og lagring
             <objects>
                 <viewController id="Q9p-EY-Aoc" customClass="Quiz7" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nwq-kO-TR7">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="PVY-80-MY3">
@@ -2858,7 +2900,7 @@ CCS = Karbonfangst og lagring
             <objects>
                 <viewController id="hn7-IY-Man" customClass="Quiz8" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mUT-3u-viV">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="khh-jn-cjH">
@@ -2969,7 +3011,7 @@ CCS = Karbonfangst og lagring
             <objects>
                 <viewController id="anC-t7-K2r" customClass="Quiz9" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tIK-vJ-gnZ">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="KjX-yy-a9o">
@@ -3081,7 +3123,7 @@ CCS = Karbonfangst og lagring
             <objects>
                 <viewController id="4qi-5M-JOs" customClass="Quiz10" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XjU-a9-T6J">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="l7I-9C-rr8">
@@ -3193,7 +3235,7 @@ CCS = Karbonfangst og lagring
             <objects>
                 <viewController id="OVr-Af-llH" customClass="Siste" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JZb-GS-Ete">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZBR-MK-XHb">
@@ -3343,8 +3385,185 @@ Dette vil endre seg i fremtiden, avhengig av hvordan teknologien og samfunnet en
             </objects>
             <point key="canvasLocation" x="223" y="3009"/>
         </scene>
+        <!--Nytt Kart Spill-->
+        <scene sceneID="DWJ-20-C3P">
+            <objects>
+                <viewController id="h7o-2T-r1d" customClass="NyttKartSpill" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wn9-hf-QGs">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="ofn-xf-Ue5">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bygg verdikjeden til grått hydrogen. Klikk og dra rør og bygninger ut på kartet." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csb-YT-pwZ">
+                                <rect key="frame" x="10" y="53" width="475" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_grey.png" translatesAutoresizingMaskIntoConstraints="NO" id="9RG-Hu-BG3">
+                                <rect key="frame" x="5" y="156" width="94" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="52"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="RZh-X7-IoG">
+                                <rect key="frame" x="101" y="156" width="94" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="52"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="HMO-Mc-Q3H">
+                                <rect key="frame" x="103" y="156" width="94" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="52"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_green.png" translatesAutoresizingMaskIntoConstraints="NO" id="XP8-bs-TkU">
+                                <rect key="frame" x="199" y="156" width="97" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="52"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_ccs.png" translatesAutoresizingMaskIntoConstraints="NO" id="JvU-LX-nO1">
+                                <rect key="frame" x="392" y="156" width="100" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="52"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.down" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7aZ-It-uxT">
+                                <rect key="frame" x="573" y="304" width="220" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.94878572230000002" green="0.24022653699999999" blue="0.18167141079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ARM-Rh-Jt0">
+                                <rect key="frame" x="761" y="234" width="220" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.94878572230000002" green="0.24022653699999999" blue="0.18167141079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_H2store.png" translatesAutoresizingMaskIntoConstraints="NO" id="kW6-7l-UZy">
+                                <rect key="frame" x="290" y="156" width="110" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="52"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="OjQ-kT-6uO" appends="YES" id="jCu-Xp-bv1"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map_grey.png" translatesAutoresizingMaskIntoConstraints="NO" id="apr-dq-tyB">
+                                <rect key="frame" x="0.0" y="156" width="104" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="72"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="hqk-7x-kIU" appends="YES" id="vZb-VH-p8Z"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.down" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Npx-to-LJx">
+                                <rect key="frame" x="919" y="670" width="220" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grått H2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfG-VY-PVG">
+                                <rect key="frame" x="19" y="260" width="66" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blått H2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kwK-6o-5fo">
+                                <rect key="frame" x="117" y="260" width="62" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grønt H2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZfB-29-kpj">
+                                <rect key="frame" x="212" y="260" width="70" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CCS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rnS-5w-fiC">
+                                <rect key="frame" x="425" y="260" width="34" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lagring av H2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M03-4D-nCV">
+                                <rect key="frame" x="293" y="259" width="107" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7jL-cw-DBs">
+                                <rect key="frame" x="635" y="317" width="97" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="52"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sx2-lA-hnD">
+                                <rect key="frame" x="387" y="251" width="428" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="100"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hfs-eQ-mxY">
+                                <rect key="frame" x="823" y="272" width="97" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="52"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zKv-vv-x9Q">
+                                <rect key="frame" x="564" y="233" width="417" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="100"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ith-Tn-8HU">
+                                <rect key="frame" x="974" y="752" width="86" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                <state key="normal" title="Neste">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Vt-sF-SZj"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xjD-LJ-fvm"/>
+                    <connections>
+                        <outlet property="drag1" destination="apr-dq-tyB" id="SmV-I3-5XU"/>
+                        <outlet property="drag2" destination="kW6-7l-UZy" id="06I-CK-lwx"/>
+                        <outlet property="neste" destination="ith-Tn-8HU" id="hHA-7t-4u5"/>
+                        <outlet property="pil1" destination="7aZ-It-uxT" id="9KN-eK-I4l"/>
+                        <outlet property="pil2" destination="ARM-Rh-Jt0" id="p7J-Vy-WlD"/>
+                        <outlet property="pil3" destination="Npx-to-LJx" id="LYk-ez-MAz"/>
+                        <outlet property="riktig1" destination="7jL-cw-DBs" id="0jc-iw-8a4"/>
+                        <outlet property="riktig2" destination="hfs-eQ-mxY" id="NeV-Tp-qG9"/>
+                        <outlet property="strek1" destination="zKv-vv-x9Q" id="aDV-jU-gWs"/>
+                        <outlet property="strek2" destination="sx2-lA-hnD" id="fie-cT-whF"/>
+                        <outlet property="tekst" destination="csb-YT-pwZ" id="G34-eU-sob"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wBc-Ze-M4u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="hqk-7x-kIU">
+                    <connections>
+                        <action selector="handlePan:" destination="h7o-2T-r1d" id="zG4-H2-TXv"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="OjQ-kT-6uO">
+                    <connections>
+                        <action selector="handlePan2:" destination="h7o-2T-r1d" id="d9O-hA-qhp"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="856.66666666666663" y="5229.6296296296296"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="qw1-1G-4hh"/>
         <segue reference="p6Z-VW-rNp"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -3354,10 +3573,12 @@ Dette vil endre seg i fremtiden, avhengig av hvordan teknologien og samfunnet en
         <image name="Formel3.png" width="151" height="28"/>
         <image name="Formel4.png" width="171" height="31"/>
         <image name="H20_a.png" width="398" height="348"/>
+        <image name="arrow.down" catalog="system" width="120" height="128"/>
         <image name="arrow.right" catalog="system" width="128" height="98"/>
         <image name="background_1-2.png" width="1080" height="810"/>
         <image name="checkmark" catalog="system" width="128" height="114"/>
         <image name="green_wind_b.png" width="447" height="325"/>
+        <image name="h2_battery.png" width="283.06683349609375" height="283.06683349609375"/>
         <image name="h2_bil.png" width="283.06683349609375" height="283.06683349609375"/>
         <image name="h2_buss.png" width="283.06683349609375" height="283.06683349609375"/>
         <image name="h2_heating.png" width="283.06683349609375" height="283.06683349609375"/>

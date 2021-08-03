@@ -36,6 +36,9 @@ class Popup2: UIViewController {
     
     @IBOutlet weak var fly: UIButton!
     
+    
+    @IBOutlet weak var batteri: UIButton!
+    
     @IBOutlet weak var tekstFelt: UIImageView!
     
     
@@ -175,13 +178,30 @@ class Popup2: UIViewController {
         feltTittel.textColor = .black
         fly.isHidden = true
         feltTittel.text = "Fly"
-        tekst.text = "Et Hydrogen fly kan bruke Hydrogen som kraftkilde."
+        tekst.text = "Et Hydrogen fly kan bruke hydrogen som kraftkilde."
         feltNeste.setTitleColor(.systemBlue, for: .normal)
         feltBilde.setImage(UIImage(named: "h2_plane.png"), for: .normal)
         A += 1
         print (A)
         
     }
+    
+    @IBAction func trykkBatteri(_ sender: Any) {
+        tekstFelt.backgroundColor = .white
+        tekstFelt.layer.cornerRadius = 25.0
+        tekstFelt.layer.borderWidth = 1/UIScreen.main.nativeScale
+        tekstFelt.layer.borderColor = UIColor.black.cgColor
+        tekst.textColor = .black
+        feltTittel.textColor = .black
+        batteri.isHidden = true
+        feltTittel.text = "Batteri"
+        tekst.text = "Hydrogen kan også brukes til å lagre energi. Når det i perioder er overskudd av elektrisitet kan det brukes til å produsere hydrogen. Hydrogenet kan da lagres og brukes når det er behov for mer energi. Hydrogen som lagring av energi er mer effektivt enn lagring av strøm i elektriske batterier."
+        feltNeste.setTitleColor(.systemBlue, for: .normal)
+        feltBilde.setImage(UIImage(named: "h2_battery.png"), for: .normal)
+        A += 1
+        print (A)
+    }
+    
     
     @IBAction func hide(_ sender: Any) {
         tekstFelt.backgroundColor = .clear
@@ -203,11 +223,12 @@ class Popup2: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        showAlert()
 
         // Do any additional setup after loading the view.
     }
     func showAlert(){
-            let alert = UIAlertController(title: "", message:"Du må lese gjennom alle 9 før du kan gå videre", preferredStyle: .alert)
+            let alert = UIAlertController(title: "", message:"Du må lese gjennom alle 9 før du kan gå videre.", preferredStyle: .alert)
             
             alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: {action in print("tapped Dismiss") }))
     

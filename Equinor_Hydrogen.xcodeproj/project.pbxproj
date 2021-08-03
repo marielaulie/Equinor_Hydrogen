@@ -74,6 +74,15 @@
 		73A7521A26B9AB1A00D0B7EB /* Quiz3B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A7521926B9AB1A00D0B7EB /* Quiz3B.swift */; };
 		73A7521C26B9AC7600D0B7EB /* peng.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7521B26B9AC7500D0B7EB /* peng.png */; };
 		73A7521E26B9ADF300D0B7EB /* Quiz5B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A7521D26B9ADF300D0B7EB /* Quiz5B.swift */; };
+		73A7522026B9B9CA00D0B7EB /* h2_battery.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7521F26B9B9CA00D0B7EB /* h2_battery.png */; };
+		73A7522226B9C1D900D0B7EB /* NyttKartSpill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A7522126B9C1D900D0B7EB /* NyttKartSpill.swift */; };
+		73A7522A26B9C7ED00D0B7EB /* green2.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7522326B9C7E500D0B7EB /* green2.png */; };
+		73A7522B26B9C7ED00D0B7EB /* gray1.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7522426B9C7E700D0B7EB /* gray1.png */; };
+		73A7522C26B9C7ED00D0B7EB /* blue2.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7522526B9C7E800D0B7EB /* blue2.png */; };
+		73A7522D26B9C7ED00D0B7EB /* green1.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7522626B9C7E800D0B7EB /* green1.png */; };
+		73A7522E26B9C7ED00D0B7EB /* blue1.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7522726B9C7E900D0B7EB /* blue1.png */; };
+		73A7522F26B9C7ED00D0B7EB /* blue3.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7522826B9C7EB00D0B7EB /* blue3.png */; };
+		73A7523026B9C7ED00D0B7EB /* gray2.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7522926B9C7EC00D0B7EB /* gray2.png */; };
 		73B6730326B8726000325215 /* Fangst_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6730026B8725F00325215 /* Fangst_1.swift */; };
 		73B6730426B8726000325215 /* Spill3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6730126B8725F00325215 /* Spill3.swift */; };
 		73B6730526B8726000325215 /* Ord3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6730226B8726000325215 /* Ord3.swift */; };
@@ -168,6 +177,15 @@
 		73A7521926B9AB1A00D0B7EB /* Quiz3B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz3B.swift; sourceTree = "<group>"; };
 		73A7521B26B9AC7500D0B7EB /* peng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peng.png; sourceTree = "<group>"; };
 		73A7521D26B9ADF300D0B7EB /* Quiz5B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz5B.swift; sourceTree = "<group>"; };
+		73A7521F26B9B9CA00D0B7EB /* h2_battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h2_battery.png; sourceTree = "<group>"; };
+		73A7522126B9C1D900D0B7EB /* NyttKartSpill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyttKartSpill.swift; sourceTree = "<group>"; };
+		73A7522326B9C7E500D0B7EB /* green2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green2.png; sourceTree = "<group>"; };
+		73A7522426B9C7E700D0B7EB /* gray1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray1.png; sourceTree = "<group>"; };
+		73A7522526B9C7E800D0B7EB /* blue2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue2.png; sourceTree = "<group>"; };
+		73A7522626B9C7E800D0B7EB /* green1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green1.png; sourceTree = "<group>"; };
+		73A7522726B9C7E900D0B7EB /* blue1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue1.png; sourceTree = "<group>"; };
+		73A7522826B9C7EB00D0B7EB /* blue3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue3.png; sourceTree = "<group>"; };
+		73A7522926B9C7EC00D0B7EB /* gray2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray2.png; sourceTree = "<group>"; };
 		73B6730026B8725F00325215 /* Fangst_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fangst_1.swift; sourceTree = "<group>"; };
 		73B6730126B8725F00325215 /* Spill3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spill3.swift; sourceTree = "<group>"; };
 		73B6730226B8726000325215 /* Ord3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ord3.swift; sourceTree = "<group>"; };
@@ -202,6 +220,14 @@
 		7303E5B326B3E1030062F69A = {
 			isa = PBXGroup;
 			children = (
+				73A7522726B9C7E900D0B7EB /* blue1.png */,
+				73A7522526B9C7E800D0B7EB /* blue2.png */,
+				73A7522826B9C7EB00D0B7EB /* blue3.png */,
+				73A7522426B9C7E700D0B7EB /* gray1.png */,
+				73A7522926B9C7EC00D0B7EB /* gray2.png */,
+				73A7522626B9C7E800D0B7EB /* green1.png */,
+				73A7522326B9C7E500D0B7EB /* green2.png */,
+				73A7521F26B9B9CA00D0B7EB /* h2_battery.png */,
 				73A7521B26B9AC7500D0B7EB /* peng.png */,
 				73A7521526B9A61E00D0B7EB /* Formel3.png */,
 				73A7521626B9A61F00D0B7EB /* Formel4.png */,
@@ -297,6 +323,7 @@
 				73FF3BE126B901D7001FD25B /* Popup4.swift */,
 				73A7515526B946CB00D0B7EB /* mapSpill.swift */,
 				73A7515726B946DE00D0B7EB /* KartSpill.swift */,
+				73A7522126B9C1D900D0B7EB /* NyttKartSpill.swift */,
 				73A7515926B946EB00D0B7EB /* KartSpill2.swift */,
 				73A751F126B9577000D0B7EB /* KartSpill3.swift */,
 				73A751F326B9578600D0B7EB /* KartSpill4.swift */,
@@ -370,6 +397,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73A7522A26B9C7ED00D0B7EB /* green2.png in Resources */,
+				73A7522B26B9C7ED00D0B7EB /* gray1.png in Resources */,
+				73A7522C26B9C7ED00D0B7EB /* blue2.png in Resources */,
+				73A7522D26B9C7ED00D0B7EB /* green1.png in Resources */,
+				73A7522E26B9C7ED00D0B7EB /* blue1.png in Resources */,
+				73A7522F26B9C7ED00D0B7EB /* blue3.png in Resources */,
+				73A7523026B9C7ED00D0B7EB /* gray2.png in Resources */,
+				73A7522026B9B9CA00D0B7EB /* h2_battery.png in Resources */,
 				73A7521C26B9AC7600D0B7EB /* peng.png in Resources */,
 				73A7521726B9A62000D0B7EB /* Formel3.png in Resources */,
 				73A7521826B9A62000D0B7EB /* Formel4.png in Resources */,
@@ -443,6 +478,7 @@
 				73FF3BC826B8F6B4001FD25B /* Quiz1.swift in Sources */,
 				73FF3BDA26B9003D001FD25B /* Quiz6.swift in Sources */,
 				73FF3BD826B90032001FD25B /* Quiz5.swift in Sources */,
+				73A7522226B9C1D900D0B7EB /* NyttKartSpill.swift in Sources */,
 				73663E6E26B8779F00518123 /* GrattHydrogen.swift in Sources */,
 				73FF3BC426B8F4C9001FD25B /* Oppgave7.swift in Sources */,
 				7303E5EA26B408970062F69A /* Oppgave3.swift in Sources */,
