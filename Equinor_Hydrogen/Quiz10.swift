@@ -1,16 +1,21 @@
 //
-//  Quiz6.swift
+//  Quiz10.swift
 //  Equinor_Hydrogen
 //
-
-
-
-
-
-
-
-
 //  Created by Mariel Aulie Hinderaker on 03/08/2021.
+
+
+
+
+
+
+
+
+
+
+
+
+
 //  Copyright © 2021 Mariel Aulie Hinderaker. All rights reserved.
 //
 
@@ -18,7 +23,7 @@ import UIKit
 
 
 
-class Quiz6: UIViewController {
+class Quiz10: UIViewController {
 
 
     @IBOutlet weak var riktig: UIButton!
@@ -28,10 +33,13 @@ class Quiz6: UIViewController {
     @IBOutlet weak var altB: UIButton!
     @IBOutlet weak var altC: UIButton!
     var A = 0
+    @IBOutlet weak var altD: UIButton!
     @IBAction func trykkA(_ sender: Any) {
         altC.backgroundColor = .white
         altB.backgroundColor = .white
-        altA.backgroundColor = .systemRed
+        altA.backgroundColor = .systemGreen
+        altD.backgroundColor = .white
+        riktig.setTitleColor(.systemGreen, for: .normal)
         //feil.setTitleColor(.systemRed, for: .normal)
         
     }
@@ -39,18 +47,29 @@ class Quiz6: UIViewController {
         altC.backgroundColor = .white
         altB.backgroundColor = .systemRed
         altA.backgroundColor = .white
+        altD.backgroundColor = .white
         //A += 1
         //erRiktig()
    
     }
     @IBAction func trykkC(_ sender: Any) {
-        altC.backgroundColor = .systemGreen
+        altC.backgroundColor = .systemRed
         altB.backgroundColor = .white
         altA.backgroundColor = .white
-        riktig.setTitleColor(.systemGreen, for: .normal)
+        altD.backgroundColor = .white
+        
         //A += 1
         //erRiktig()
 
+    }
+    
+    @IBAction func trykkD(_ sender: Any) {
+        altC.backgroundColor = .white
+        altB.backgroundColor = .white
+        altA.backgroundColor = .white
+        altD.backgroundColor = .systemRed
+        //riktig.setTitleColor(.systemGreen, for: .normal)
+        
     }
     
     func erRiktig(){
@@ -77,6 +96,10 @@ class Quiz6: UIViewController {
         altC.layer.cornerRadius = 10.0
         altC.layer.borderWidth = 1/UIScreen.main.nativeScale
         altC.layer.borderColor = UIColor.black.cgColor
+        altD.backgroundColor = .white
+        altD.layer.cornerRadius = 10.0
+        altD.layer.borderWidth = 1/UIScreen.main.nativeScale
+        altD.layer.borderColor = UIColor.black.cgColor
         // Do any additional setup after loading the view.
     }
     

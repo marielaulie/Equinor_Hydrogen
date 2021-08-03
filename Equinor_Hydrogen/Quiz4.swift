@@ -1,10 +1,23 @@
 //
-//  Quiz4.swift
-//  Equinor_Hydrogen
-//
-//  Created by Mariel Aulie Hinderaker on 03/08/2021.
-//  Copyright © 2021 Mariel Aulie Hinderaker. All rights reserved.
-//
+//  Quiz4.swif
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 import UIKit
 

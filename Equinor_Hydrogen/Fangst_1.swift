@@ -1,3 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+
 //
 //  Fangst_1.swift
 //  Equinor_CCS_2

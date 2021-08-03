@@ -45,14 +45,25 @@
 		73663E7426B877C900518123 /* BlaHydrogen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73663E7326B877C900518123 /* BlaHydrogen.swift */; };
 		73663E7626B877D400518123 /* BlaHydrogen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73663E7526B877D400518123 /* BlaHydrogen2.swift */; };
 		73663E7C26B8815F00518123 /* 1-12387_cartoon-cage-transparent-background-clipart.png in Resources */ = {isa = PBXBuildFile; fileRef = 73663E7B26B8815E00518123 /* 1-12387_cartoon-cage-transparent-background-clipart.png */; };
-		73A7514626B9190A00D0B7EB /* MapGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A7514526B9190A00D0B7EB /* MapGame.swift */; };
-		73A7514826B9191B00D0B7EB /* MapGame2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A7514726B9191B00D0B7EB /* MapGame2.swift */; };
 		73A7514A26B9198600D0B7EB /* map_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7514926B9198600D0B7EB /* map_bg.png */; };
 		73A7514F26B91A2D00D0B7EB /* map_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7514B26B91A2C00D0B7EB /* map_blue.png */; };
 		73A7515026B91A2D00D0B7EB /* map_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7514C26B91A2C00D0B7EB /* map_grey.png */; };
 		73A7515126B91A2D00D0B7EB /* map_ccs.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7514D26B91A2C00D0B7EB /* map_ccs.png */; };
 		73A7515226B91A2D00D0B7EB /* map_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7514E26B91A2C00D0B7EB /* map_green.png */; };
 		73A7515426B91AAD00D0B7EB /* map_H2store.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7515326B91AAD00D0B7EB /* map_H2store.png */; };
+		73A7515626B946CB00D0B7EB /* mapSpill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A7515526B946CB00D0B7EB /* mapSpill.swift */; };
+		73A7515826B946DE00D0B7EB /* KartSpill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A7515726B946DE00D0B7EB /* KartSpill.swift */; };
+		73A7515A26B946EB00D0B7EB /* KartSpill2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A7515926B946EB00D0B7EB /* KartSpill2.swift */; };
+		73A751F226B9577000D0B7EB /* KartSpill3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A751F126B9577000D0B7EB /* KartSpill3.swift */; };
+		73A751F426B9578600D0B7EB /* KartSpill4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A751F326B9578600D0B7EB /* KartSpill4.swift */; };
+		73A751F626B95DFF00D0B7EB /* KartSpill5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A751F526B95DFF00D0B7EB /* KartSpill5.swift */; };
+		73A751F826B95E7500D0B7EB /* KartSpill6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A751F726B95E7500D0B7EB /* KartSpill6.swift */; };
+		73A751FA26B95E8E00D0B7EB /* KartSpill7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A751F926B95E8E00D0B7EB /* KartSpill7.swift */; };
+		73A751FC26B9693100D0B7EB /* Quiz7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A751FB26B9693100D0B7EB /* Quiz7.swift */; };
+		73A751FE26B9693D00D0B7EB /* Quiz8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A751FD26B9693D00D0B7EB /* Quiz8.swift */; };
+		73A7520026B9694B00D0B7EB /* Quiz9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A751FF26B9694B00D0B7EB /* Quiz9.swift */; };
+		73A7520226B96C3F00D0B7EB /* Quiz10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A7520126B96C3F00D0B7EB /* Quiz10.swift */; };
+		73A7520426B972B300D0B7EB /* Siste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A7520326B972B300D0B7EB /* Siste.swift */; };
 		73B6730326B8726000325215 /* Fangst_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6730026B8725F00325215 /* Fangst_1.swift */; };
 		73B6730426B8726000325215 /* Spill3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6730126B8725F00325215 /* Spill3.swift */; };
 		73B6730526B8726000325215 /* Ord3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6730226B8726000325215 /* Ord3.swift */; };
@@ -122,14 +133,25 @@
 		73663E7926B87D5400518123 /* h20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h20.png; sourceTree = "<group>"; };
 		73663E7A26B87D5400518123 /* hydrogen-3d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hydrogen-3d.png"; sourceTree = "<group>"; };
 		73663E7B26B8815E00518123 /* 1-12387_cartoon-cage-transparent-background-clipart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-12387_cartoon-cage-transparent-background-clipart.png"; sourceTree = "<group>"; };
-		73A7514526B9190A00D0B7EB /* MapGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapGame.swift; sourceTree = "<group>"; };
-		73A7514726B9191B00D0B7EB /* MapGame2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapGame2.swift; sourceTree = "<group>"; };
 		73A7514926B9198600D0B7EB /* map_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_bg.png; sourceTree = "<group>"; };
 		73A7514B26B91A2C00D0B7EB /* map_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_blue.png; sourceTree = "<group>"; };
 		73A7514C26B91A2C00D0B7EB /* map_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_grey.png; sourceTree = "<group>"; };
 		73A7514D26B91A2C00D0B7EB /* map_ccs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_ccs.png; sourceTree = "<group>"; };
 		73A7514E26B91A2C00D0B7EB /* map_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_green.png; sourceTree = "<group>"; };
 		73A7515326B91AAD00D0B7EB /* map_H2store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_H2store.png; sourceTree = "<group>"; };
+		73A7515526B946CB00D0B7EB /* mapSpill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapSpill.swift; sourceTree = "<group>"; };
+		73A7515726B946DE00D0B7EB /* KartSpill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartSpill.swift; sourceTree = "<group>"; };
+		73A7515926B946EB00D0B7EB /* KartSpill2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartSpill2.swift; sourceTree = "<group>"; };
+		73A751F126B9577000D0B7EB /* KartSpill3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartSpill3.swift; sourceTree = "<group>"; };
+		73A751F326B9578600D0B7EB /* KartSpill4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartSpill4.swift; sourceTree = "<group>"; };
+		73A751F526B95DFF00D0B7EB /* KartSpill5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartSpill5.swift; sourceTree = "<group>"; };
+		73A751F726B95E7500D0B7EB /* KartSpill6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartSpill6.swift; sourceTree = "<group>"; };
+		73A751F926B95E8E00D0B7EB /* KartSpill7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartSpill7.swift; sourceTree = "<group>"; };
+		73A751FB26B9693100D0B7EB /* Quiz7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz7.swift; sourceTree = "<group>"; };
+		73A751FD26B9693D00D0B7EB /* Quiz8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz8.swift; sourceTree = "<group>"; };
+		73A751FF26B9694B00D0B7EB /* Quiz9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz9.swift; sourceTree = "<group>"; };
+		73A7520126B96C3F00D0B7EB /* Quiz10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz10.swift; sourceTree = "<group>"; };
+		73A7520326B972B300D0B7EB /* Siste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Siste.swift; sourceTree = "<group>"; };
 		73B6730026B8725F00325215 /* Fangst_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fangst_1.swift; sourceTree = "<group>"; };
 		73B6730126B8725F00325215 /* Spill3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spill3.swift; sourceTree = "<group>"; };
 		73B6730226B8726000325215 /* Ord3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ord3.swift; sourceTree = "<group>"; };
@@ -247,12 +269,23 @@
 				73FF3BCD26B8F6D5001FD25B /* Quiz4.swift */,
 				73FF3BD726B90032001FD25B /* Quiz5.swift */,
 				73FF3BD926B9003D001FD25B /* Quiz6.swift */,
+				73A751FB26B9693100D0B7EB /* Quiz7.swift */,
+				73A751FD26B9693D00D0B7EB /* Quiz8.swift */,
+				73A751FF26B9694B00D0B7EB /* Quiz9.swift */,
+				73A7520126B96C3F00D0B7EB /* Quiz10.swift */,
 				73FF3BDB26B901AD001FD25B /* Popup1.swift */,
 				73FF3BDD26B901B9001FD25B /* Popup2.swift */,
 				73FF3BDF26B901CD001FD25B /* Popup3.swift */,
 				73FF3BE126B901D7001FD25B /* Popup4.swift */,
-				73A7514526B9190A00D0B7EB /* MapGame.swift */,
-				73A7514726B9191B00D0B7EB /* MapGame2.swift */,
+				73A7515526B946CB00D0B7EB /* mapSpill.swift */,
+				73A7515726B946DE00D0B7EB /* KartSpill.swift */,
+				73A7515926B946EB00D0B7EB /* KartSpill2.swift */,
+				73A751F126B9577000D0B7EB /* KartSpill3.swift */,
+				73A751F326B9578600D0B7EB /* KartSpill4.swift */,
+				73A751F526B95DFF00D0B7EB /* KartSpill5.swift */,
+				73A751F726B95E7500D0B7EB /* KartSpill6.swift */,
+				73A751F926B95E8E00D0B7EB /* KartSpill7.swift */,
+				73A7520326B972B300D0B7EB /* Siste.swift */,
 				7303E5C526B3E1030062F69A /* Main.storyboard */,
 				7303E5C826B3E10B0062F69A /* Assets.xcassets */,
 				7303E5CA26B3E10B0062F69A /* LaunchScreen.storyboard */,
@@ -364,37 +397,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73A7514626B9190A00D0B7EB /* MapGame.swift in Sources */,
 				7303E5C426B3E1030062F69A /* ViewController.swift in Sources */,
 				73B6730426B8726000325215 /* Spill3.swift in Sources */,
 				73FF3BE026B901CD001FD25B /* Popup3.swift in Sources */,
 				73663E6C26B8777D00518123 /* GrattHydrogen2.swift in Sources */,
+				73A751FA26B95E8E00D0B7EB /* KartSpill7.swift in Sources */,
+				73A7520226B96C3F00D0B7EB /* Quiz10.swift in Sources */,
 				73FF3BDE26B901B9001FD25B /* Popup2.swift in Sources */,
 				73B6730326B8726000325215 /* Fangst_1.swift in Sources */,
+				73A7515A26B946EB00D0B7EB /* KartSpill2.swift in Sources */,
 				73FF3BC626B8F4D4001FD25B /* Oppgave8.swift in Sources */,
 				73FF3BC026B8F3F6001FD25B /* Oppgave5.swift in Sources */,
+				73A751F626B95DFF00D0B7EB /* KartSpill5.swift in Sources */,
 				7303E5D426B3FF0F0062F69A /* Hydrogen.swift in Sources */,
 				73663E7226B877BF00518123 /* GronnHydrogen2.swift in Sources */,
 				73FF3BCA26B8F6C0001FD25B /* Quiz2.swift in Sources */,
+				73A751FC26B9693100D0B7EB /* Quiz7.swift in Sources */,
 				73B6730526B8726000325215 /* Ord3.swift in Sources */,
+				73A751FE26B9693D00D0B7EB /* Quiz8.swift in Sources */,
 				7303E5C026B3E1030062F69A /* AppDelegate.swift in Sources */,
 				73FF3BE226B901D7001FD25B /* Popup4.swift in Sources */,
+				73A7515626B946CB00D0B7EB /* mapSpill.swift in Sources */,
 				73FF3BC826B8F6B4001FD25B /* Quiz1.swift in Sources */,
 				73FF3BDA26B9003D001FD25B /* Quiz6.swift in Sources */,
 				73FF3BD826B90032001FD25B /* Quiz5.swift in Sources */,
 				73663E6E26B8779F00518123 /* GrattHydrogen.swift in Sources */,
 				73FF3BC426B8F4C9001FD25B /* Oppgave7.swift in Sources */,
 				7303E5EA26B408970062F69A /* Oppgave3.swift in Sources */,
+				73A751F826B95E7500D0B7EB /* KartSpill6.swift in Sources */,
 				7303E5E626B4087F0062F69A /* Oppgave1.swift in Sources */,
 				73FF3BCE26B8F6D5001FD25B /* Quiz4.swift in Sources */,
+				73A7515826B946DE00D0B7EB /* KartSpill.swift in Sources */,
+				73A7520026B9694B00D0B7EB /* Quiz9.swift in Sources */,
+				73A751F426B9578600D0B7EB /* KartSpill4.swift in Sources */,
 				7303E5E826B4088E0062F69A /* Oppgave2.swift in Sources */,
-				73A7514826B9191B00D0B7EB /* MapGame2.swift in Sources */,
+				73A7520426B972B300D0B7EB /* Siste.swift in Sources */,
 				73663E7026B877B400518123 /* GronnHydrogen.swift in Sources */,
 				73FF3BCC26B8F6CB001FD25B /* Quiz3.swift in Sources */,
 				7303E5C226B3E1030062F69A /* SceneDelegate.swift in Sources */,
 				73663E7626B877D400518123 /* BlaHydrogen2.swift in Sources */,
 				73FF3BDC26B901AD001FD25B /* Popup1.swift in Sources */,
 				73FF3BBE26B8F3D0001FD25B /* Oppgave4.swift in Sources */,
+				73A751F226B9577000D0B7EB /* KartSpill3.swift in Sources */,
 				73FF3BC226B8F407001FD25B /* Oppgave6.swift in Sources */,
 				73663E7426B877C900518123 /* BlaHydrogen.swift in Sources */,
 			);

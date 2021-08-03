@@ -1,5 +1,5 @@
 //
-//  MapGame2.swift
+//  KartSpill.swift
 //  Equinor_Hydrogen
 //
 //  Created by Mariel Aulie Hinderaker on 03/08/2021.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MapGame2: UIViewController {
+class KartSpill: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

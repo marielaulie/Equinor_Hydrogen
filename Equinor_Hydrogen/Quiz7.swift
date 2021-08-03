@@ -1,25 +1,24 @@
+
+
+
+
+
+
+
+
+
+
 //
-//  Quiz6.swift
+//  Quiz7.swift
 //  Equinor_Hydrogen
 //
-
-
-
-
-
-
-
-
 //  Created by Mariel Aulie Hinderaker on 03/08/2021.
 //  Copyright © 2021 Mariel Aulie Hinderaker. All rights reserved.
 //
 
 import UIKit
 
-
-
-class Quiz6: UIViewController {
-
+class Quiz7: UIViewController {
 
     @IBOutlet weak var riktig: UIButton!
     @IBOutlet weak var feil: UIButton!
@@ -53,6 +52,7 @@ class Quiz6: UIViewController {
 
     }
     
+
     func erRiktig(){
         if A == 2 {
             riktig.setTitleColor(.systemGreen, for: .normal)
