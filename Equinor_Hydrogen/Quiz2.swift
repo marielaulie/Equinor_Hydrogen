@@ -34,7 +34,10 @@ class Quiz2: UIViewController {
         altA.backgroundColor = .systemRed
         feil.setTitleColor(.systemRed, for: .normal)
         feil.backgroundColor = .white
-        
+        feil.layer.cornerRadius = 10.0
+        feil.layer.borderWidth = 1/UIScreen.main.nativeScale
+        feil.layer.borderColor = UIColor.black.cgColor
+
     }
     @IBAction func trykkB(_ sender: Any) {
         altC.backgroundColor = .white
@@ -42,6 +45,10 @@ class Quiz2: UIViewController {
         altA.backgroundColor = .white
         feil.setTitleColor(.systemRed, for: .normal)
         feil.backgroundColor = .white
+        feil.layer.cornerRadius = 10.0
+        feil.layer.borderWidth = 1/UIScreen.main.nativeScale
+        feil.layer.borderColor = UIColor.black.cgColor
+
     }
     @IBAction func trykkC(_ sender: Any) {
         altC.backgroundColor = .systemGreen
@@ -49,7 +56,6 @@ class Quiz2: UIViewController {
         altA.backgroundColor = .white
         riktig.setTitleColor(.systemGreen, for: .normal)
     }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         boks.backgroundColor = .white
@@ -70,6 +76,8 @@ class Quiz2: UIViewController {
         altC.layer.borderColor = UIColor.black.cgColor
         // Do any additional setup after loading the view.
     }
+    
+    
     
 
     /*

@@ -1,28 +1,14 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //
-//  GrattHydrogen.swift
+//  Quiz3B.swift
 //  Equinor_Hydrogen
 //
-//  Created by Mariel Aulie Hinderaker on 02/08/2021.
+//  Created by Mariel Aulie Hinderaker on 03/08/2021.
 //  Copyright © 2021 Mariel Aulie Hinderaker. All rights reserved.
 //
 
 import UIKit
 
-class GrattHydrogen: UIViewController {
+class Quiz3B: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

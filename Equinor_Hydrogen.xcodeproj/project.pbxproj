@@ -64,6 +64,16 @@
 		73A7520026B9694B00D0B7EB /* Quiz9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A751FF26B9694B00D0B7EB /* Quiz9.swift */; };
 		73A7520226B96C3F00D0B7EB /* Quiz10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A7520126B96C3F00D0B7EB /* Quiz10.swift */; };
 		73A7520426B972B300D0B7EB /* Siste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A7520326B972B300D0B7EB /* Siste.swift */; };
+		73A7521026B9904F00D0B7EB /* molekyl3.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7520B26B9904E00D0B7EB /* molekyl3.png */; };
+		73A7521126B9904F00D0B7EB /* molekyl1.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7520C26B9904E00D0B7EB /* molekyl1.png */; };
+		73A7521226B9904F00D0B7EB /* Formel2.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7520D26B9904F00D0B7EB /* Formel2.png */; };
+		73A7521326B9904F00D0B7EB /* Formel1.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7520E26B9904F00D0B7EB /* Formel1.png */; };
+		73A7521426B9904F00D0B7EB /* molekyl2.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7520F26B9904F00D0B7EB /* molekyl2.png */; };
+		73A7521726B9A62000D0B7EB /* Formel3.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7521526B9A61E00D0B7EB /* Formel3.png */; };
+		73A7521826B9A62000D0B7EB /* Formel4.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7521626B9A61F00D0B7EB /* Formel4.png */; };
+		73A7521A26B9AB1A00D0B7EB /* Quiz3B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A7521926B9AB1A00D0B7EB /* Quiz3B.swift */; };
+		73A7521C26B9AC7600D0B7EB /* peng.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A7521B26B9AC7500D0B7EB /* peng.png */; };
+		73A7521E26B9ADF300D0B7EB /* Quiz5B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A7521D26B9ADF300D0B7EB /* Quiz5B.swift */; };
 		73B6730326B8726000325215 /* Fangst_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6730026B8725F00325215 /* Fangst_1.swift */; };
 		73B6730426B8726000325215 /* Spill3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6730126B8725F00325215 /* Spill3.swift */; };
 		73B6730526B8726000325215 /* Ord3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6730226B8726000325215 /* Ord3.swift */; };
@@ -76,10 +86,6 @@
 		73FF3BCA26B8F6C0001FD25B /* Quiz2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BC926B8F6C0001FD25B /* Quiz2.swift */; };
 		73FF3BCC26B8F6CB001FD25B /* Quiz3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BCB26B8F6CB001FD25B /* Quiz3.swift */; };
 		73FF3BCE26B8F6D5001FD25B /* Quiz4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BCD26B8F6D5001FD25B /* Quiz4.swift */; };
-		73FF3BD326B8FCD2001FD25B /* Skjermbilde 2021-08-03 kl. 06.25.01.png in Resources */ = {isa = PBXBuildFile; fileRef = 73FF3BCF26B8FCD1001FD25B /* Skjermbilde 2021-08-03 kl. 06.25.01.png */; };
-		73FF3BD426B8FCD2001FD25B /* Skjermbilde 2021-08-03 kl. 06.24.18.png in Resources */ = {isa = PBXBuildFile; fileRef = 73FF3BD026B8FCD1001FD25B /* Skjermbilde 2021-08-03 kl. 06.24.18.png */; };
-		73FF3BD526B8FCD2001FD25B /* Skjermbilde 2021-08-03 kl. 06.24.55.png in Resources */ = {isa = PBXBuildFile; fileRef = 73FF3BD126B8FCD1001FD25B /* Skjermbilde 2021-08-03 kl. 06.24.55.png */; };
-		73FF3BD626B8FCD2001FD25B /* Skjermbilde 2021-08-03 kl. 06.24.49.png in Resources */ = {isa = PBXBuildFile; fileRef = 73FF3BD226B8FCD2001FD25B /* Skjermbilde 2021-08-03 kl. 06.24.49.png */; };
 		73FF3BD826B90032001FD25B /* Quiz5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BD726B90032001FD25B /* Quiz5.swift */; };
 		73FF3BDA26B9003D001FD25B /* Quiz6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BD926B9003D001FD25B /* Quiz6.swift */; };
 		73FF3BDC26B901AD001FD25B /* Popup1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BDB26B901AD001FD25B /* Popup1.swift */; };
@@ -152,6 +158,16 @@
 		73A751FF26B9694B00D0B7EB /* Quiz9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz9.swift; sourceTree = "<group>"; };
 		73A7520126B96C3F00D0B7EB /* Quiz10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz10.swift; sourceTree = "<group>"; };
 		73A7520326B972B300D0B7EB /* Siste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Siste.swift; sourceTree = "<group>"; };
+		73A7520B26B9904E00D0B7EB /* molekyl3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = molekyl3.png; sourceTree = "<group>"; };
+		73A7520C26B9904E00D0B7EB /* molekyl1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = molekyl1.png; sourceTree = "<group>"; };
+		73A7520D26B9904F00D0B7EB /* Formel2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Formel2.png; sourceTree = "<group>"; };
+		73A7520E26B9904F00D0B7EB /* Formel1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Formel1.png; sourceTree = "<group>"; };
+		73A7520F26B9904F00D0B7EB /* molekyl2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = molekyl2.png; sourceTree = "<group>"; };
+		73A7521526B9A61E00D0B7EB /* Formel3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Formel3.png; sourceTree = "<group>"; };
+		73A7521626B9A61F00D0B7EB /* Formel4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Formel4.png; sourceTree = "<group>"; };
+		73A7521926B9AB1A00D0B7EB /* Quiz3B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz3B.swift; sourceTree = "<group>"; };
+		73A7521B26B9AC7500D0B7EB /* peng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peng.png; sourceTree = "<group>"; };
+		73A7521D26B9ADF300D0B7EB /* Quiz5B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz5B.swift; sourceTree = "<group>"; };
 		73B6730026B8725F00325215 /* Fangst_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fangst_1.swift; sourceTree = "<group>"; };
 		73B6730126B8725F00325215 /* Spill3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spill3.swift; sourceTree = "<group>"; };
 		73B6730226B8726000325215 /* Ord3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ord3.swift; sourceTree = "<group>"; };
@@ -164,10 +180,6 @@
 		73FF3BC926B8F6C0001FD25B /* Quiz2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz2.swift; sourceTree = "<group>"; };
 		73FF3BCB26B8F6CB001FD25B /* Quiz3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz3.swift; sourceTree = "<group>"; };
 		73FF3BCD26B8F6D5001FD25B /* Quiz4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz4.swift; sourceTree = "<group>"; };
-		73FF3BCF26B8FCD1001FD25B /* Skjermbilde 2021-08-03 kl. 06.25.01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Skjermbilde 2021-08-03 kl. 06.25.01.png"; sourceTree = "<group>"; };
-		73FF3BD026B8FCD1001FD25B /* Skjermbilde 2021-08-03 kl. 06.24.18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Skjermbilde 2021-08-03 kl. 06.24.18.png"; sourceTree = "<group>"; };
-		73FF3BD126B8FCD1001FD25B /* Skjermbilde 2021-08-03 kl. 06.24.55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Skjermbilde 2021-08-03 kl. 06.24.55.png"; sourceTree = "<group>"; };
-		73FF3BD226B8FCD2001FD25B /* Skjermbilde 2021-08-03 kl. 06.24.49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Skjermbilde 2021-08-03 kl. 06.24.49.png"; sourceTree = "<group>"; };
 		73FF3BD726B90032001FD25B /* Quiz5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz5.swift; sourceTree = "<group>"; };
 		73FF3BD926B9003D001FD25B /* Quiz6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz6.swift; sourceTree = "<group>"; };
 		73FF3BDB26B901AD001FD25B /* Popup1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup1.swift; sourceTree = "<group>"; };
@@ -190,16 +202,20 @@
 		7303E5B326B3E1030062F69A = {
 			isa = PBXGroup;
 			children = (
+				73A7521B26B9AC7500D0B7EB /* peng.png */,
+				73A7521526B9A61E00D0B7EB /* Formel3.png */,
+				73A7521626B9A61F00D0B7EB /* Formel4.png */,
+				73A7520E26B9904F00D0B7EB /* Formel1.png */,
+				73A7520D26B9904F00D0B7EB /* Formel2.png */,
+				73A7520C26B9904E00D0B7EB /* molekyl1.png */,
+				73A7520F26B9904F00D0B7EB /* molekyl2.png */,
+				73A7520B26B9904E00D0B7EB /* molekyl3.png */,
 				73A7515326B91AAD00D0B7EB /* map_H2store.png */,
 				73A7514B26B91A2C00D0B7EB /* map_blue.png */,
 				73A7514D26B91A2C00D0B7EB /* map_ccs.png */,
 				73A7514E26B91A2C00D0B7EB /* map_green.png */,
 				73A7514C26B91A2C00D0B7EB /* map_grey.png */,
 				73A7514926B9198600D0B7EB /* map_bg.png */,
-				73FF3BD026B8FCD1001FD25B /* Skjermbilde 2021-08-03 kl. 06.24.18.png */,
-				73FF3BD226B8FCD2001FD25B /* Skjermbilde 2021-08-03 kl. 06.24.49.png */,
-				73FF3BD126B8FCD1001FD25B /* Skjermbilde 2021-08-03 kl. 06.24.55.png */,
-				73FF3BCF26B8FCD1001FD25B /* Skjermbilde 2021-08-03 kl. 06.25.01.png */,
 				73663E7B26B8815E00518123 /* 1-12387_cartoon-cage-transparent-background-clipart.png */,
 				73663E7826B87D5300518123 /* co2molekyl.png */,
 				73663E7926B87D5400518123 /* h20.png */,
@@ -266,8 +282,10 @@
 				73FF3BC726B8F6B4001FD25B /* Quiz1.swift */,
 				73FF3BC926B8F6C0001FD25B /* Quiz2.swift */,
 				73FF3BCB26B8F6CB001FD25B /* Quiz3.swift */,
+				73A7521926B9AB1A00D0B7EB /* Quiz3B.swift */,
 				73FF3BCD26B8F6D5001FD25B /* Quiz4.swift */,
 				73FF3BD726B90032001FD25B /* Quiz5.swift */,
+				73A7521D26B9ADF300D0B7EB /* Quiz5B.swift */,
 				73FF3BD926B9003D001FD25B /* Quiz6.swift */,
 				73A751FB26B9693100D0B7EB /* Quiz7.swift */,
 				73A751FD26B9693D00D0B7EB /* Quiz8.swift */,
@@ -352,16 +370,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73A7521C26B9AC7600D0B7EB /* peng.png in Resources */,
+				73A7521726B9A62000D0B7EB /* Formel3.png in Resources */,
+				73A7521826B9A62000D0B7EB /* Formel4.png in Resources */,
+				73A7521026B9904F00D0B7EB /* molekyl3.png in Resources */,
+				73A7521126B9904F00D0B7EB /* molekyl1.png in Resources */,
+				73A7521226B9904F00D0B7EB /* Formel2.png in Resources */,
+				73A7521326B9904F00D0B7EB /* Formel1.png in Resources */,
+				73A7521426B9904F00D0B7EB /* molekyl2.png in Resources */,
 				73A7515426B91AAD00D0B7EB /* map_H2store.png in Resources */,
 				73A7514F26B91A2D00D0B7EB /* map_blue.png in Resources */,
 				73A7515026B91A2D00D0B7EB /* map_grey.png in Resources */,
 				73A7515126B91A2D00D0B7EB /* map_ccs.png in Resources */,
 				73A7515226B91A2D00D0B7EB /* map_green.png in Resources */,
 				73A7514A26B9198600D0B7EB /* map_bg.png in Resources */,
-				73FF3BD326B8FCD2001FD25B /* Skjermbilde 2021-08-03 kl. 06.25.01.png in Resources */,
-				73FF3BD426B8FCD2001FD25B /* Skjermbilde 2021-08-03 kl. 06.24.18.png in Resources */,
-				73FF3BD526B8FCD2001FD25B /* Skjermbilde 2021-08-03 kl. 06.24.55.png in Resources */,
-				73FF3BD626B8FCD2001FD25B /* Skjermbilde 2021-08-03 kl. 06.24.49.png in Resources */,
 				73663E7C26B8815F00518123 /* 1-12387_cartoon-cage-transparent-background-clipart.png in Resources */,
 				7303E60026B423960062F69A /* h2_plane.png in Resources */,
 				7303E60126B423960062F69A /* h2_ship.png in Resources */,
@@ -437,10 +459,12 @@
 				7303E5C226B3E1030062F69A /* SceneDelegate.swift in Sources */,
 				73663E7626B877D400518123 /* BlaHydrogen2.swift in Sources */,
 				73FF3BDC26B901AD001FD25B /* Popup1.swift in Sources */,
+				73A7521A26B9AB1A00D0B7EB /* Quiz3B.swift in Sources */,
 				73FF3BBE26B8F3D0001FD25B /* Oppgave4.swift in Sources */,
 				73A751F226B9577000D0B7EB /* KartSpill3.swift in Sources */,
 				73FF3BC226B8F407001FD25B /* Oppgave6.swift in Sources */,
 				73663E7426B877C900518123 /* BlaHydrogen.swift in Sources */,
+				73A7521E26B9ADF300D0B7EB /* Quiz5B.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

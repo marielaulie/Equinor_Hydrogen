@@ -206,6 +206,13 @@ class Popup2: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    func showAlert(){
+            let alert = UIAlertController(title: "", message:"Du må lese gjennom alle 9 før du kan gå videre", preferredStyle: .alert)
+            
+            alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: {action in print("tapped Dismiss") }))
+    
+            present(alert, animated: true)
+        }
     
 
     /*

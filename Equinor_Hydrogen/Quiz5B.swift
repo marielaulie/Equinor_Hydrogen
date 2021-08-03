@@ -1,5 +1,5 @@
 //
-//  Quiz1.swift
+//  Quiz5B.swift
 //  Equinor_Hydrogen
 //
 //  Created by Mariel Aulie Hinderaker on 03/08/2021.
@@ -8,9 +8,8 @@
 
 import UIKit
 
-class Quiz1: UIViewController {
+class Quiz5B: UIViewController {
 
-    @IBOutlet weak var boks: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         boks.backgroundColor = .white
@@ -18,10 +17,12 @@ class Quiz1: UIViewController {
         boks.layer.borderWidth = 1/UIScreen.main.nativeScale
         boks.layer.borderColor = UIColor.black.cgColor
 
+
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var boks: UIImageView!
+    
     /*
     // MARK: - Navigation
 
@@ -30,14 +31,6 @@ class Quiz1: UIViewController {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-     func showAlert(){
-             let alert = UIAlertController(title: "", message:"Karbonfangst er det første steget en må ta for å få lagret CO2en under bakken. .", preferredStyle: .alert)
-             
-             alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: {action in print("tapped Dismiss") }))
-     
-             present(alert, animated: true)
-         }
-
     */
 
 }

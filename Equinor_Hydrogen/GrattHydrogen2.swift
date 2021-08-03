@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
 //
 //  GrattHydrogen2.swift
 //  Equinor_Hydrogen
@@ -10,13 +21,19 @@ import UIKit
 
 class GrattHydrogen2: UIViewController {
 
+    @IBOutlet weak var tekst: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         boks.backgroundColor = .white
         boks.layer.cornerRadius = 25.0
         boks.layer.borderWidth = 1/UIScreen.main.nativeScale
         boks.layer.borderColor = UIColor.black.cgColor
-
+        let str = "4"
+        let lowstr = str.lowercased()
+        tekst.text = "Produseres ved at naturgass C" + lowstr + " blandes med vanndamp. Ut får man hydrogen, men også klimagassen CO2. Dette er den vanligste formen for hydrogenproduksjon i dag."
+        
+        print(lowstr)
 
         // Do any additional setup after loading the view.
     }

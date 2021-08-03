@@ -61,6 +61,7 @@ class Oppgave2: UIViewController {
             tekst.textColor = .systemGreen
             neste.tintColor = .systemBlue
             
+    
         }
         }
 

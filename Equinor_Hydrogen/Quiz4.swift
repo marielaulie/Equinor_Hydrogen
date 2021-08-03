@@ -38,10 +38,13 @@ class Quiz4: UIViewController {
         altB.backgroundColor = .white
         altA.backgroundColor = .systemRed
         feil.setTitleColor(.systemRed, for: .normal)
-        
+        feil.backgroundColor = .white
+        feil.layer.cornerRadius = 10.0
+        feil.layer.borderWidth = 1/UIScreen.main.nativeScale
+        feil.layer.borderColor = UIColor.black.cgColor
+
     }
     @IBAction func trykkB(_ sender: Any) {
-        altC.backgroundColor = .white
         altB.backgroundColor = .systemGreen
         altA.backgroundColor = .white
         A += 1
@@ -50,7 +53,6 @@ class Quiz4: UIViewController {
     }
     @IBAction func trykkC(_ sender: Any) {
         altC.backgroundColor = .systemGreen
-        altB.backgroundColor = .white
         altA.backgroundColor = .white
         A += 1
         erRiktig()
