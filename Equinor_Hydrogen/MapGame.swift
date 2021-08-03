@@ -1,32 +1,22 @@
-
-
-
-
-
-
-
-
-
-
+//
+//  MapGame.swift
+//  Equinor_Hydrogen
+//
+//  Created by Mariel Aulie Hinderaker on 03/08/2021.
+//  Copyright © 2021 Mariel Aulie Hinderaker. All rights reserved.
+//
 
 import UIKit
 
-class Oppgave1: UIViewController {
+class MapGame: UIViewController {
 
-    
-    @IBOutlet weak var boks: UIImageView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        boks.backgroundColor = .white
-        boks.layer.cornerRadius = 25.0
-        boks.layer.borderWidth = 1/UIScreen.main.nativeScale
-        boks.layer.borderColor = UIColor.black.cgColor
-
 
         // Do any additional setup after loading the view.
     }
     
+
     /*
     // MARK: - Navigation
 

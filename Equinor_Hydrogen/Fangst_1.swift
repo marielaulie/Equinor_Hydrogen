@@ -5,7 +5,7 @@
 //  Created by Mariel Aulie Hinderaker on 29/07/2021.
 //  Copyright © 2021 Mariel Aulie Hinderaker. All rights reserved.
 //
-
+/*
 import UIKit
 
 class Fangst_1: UIViewController {
@@ -48,3 +48,5 @@ class Fangst_1: UIViewController {
     */
 
 }
+ 
+ */

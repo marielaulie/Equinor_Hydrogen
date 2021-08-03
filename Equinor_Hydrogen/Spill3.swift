@@ -5,7 +5,7 @@
 //  Created by Mariel Aulie Hinderaker on 27/07/2021.
 //  Copyright © 2021 Mariel Aulie Hinderaker. All rights reserved.
 //
-
+/*
 import UIKit
 
 class Spill3: UIViewController {
@@ -152,3 +152,4 @@ class Spill3: UIViewController {
     */
 
 }
+*/

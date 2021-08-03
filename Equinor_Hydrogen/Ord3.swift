@@ -5,7 +5,7 @@
 //  Created by Mariel Aulie Hinderaker on 02/08/2021.
 //  Copyright © 2021 Mariel Aulie Hinderaker. All rights reserved.
 //
-
+/*
 import UIKit
 
 class Ord3: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
@@ -55,3 +55,4 @@ class Ord3: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
 
 
 }
+*/
