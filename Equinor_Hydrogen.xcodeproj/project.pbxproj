@@ -48,6 +48,15 @@
 		73B6730326B8726000325215 /* Fangst_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6730026B8725F00325215 /* Fangst_1.swift */; };
 		73B6730426B8726000325215 /* Spill3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6730126B8725F00325215 /* Spill3.swift */; };
 		73B6730526B8726000325215 /* Ord3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6730226B8726000325215 /* Ord3.swift */; };
+		73FF3BBE26B8F3D0001FD25B /* Oppgave4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BBD26B8F3D0001FD25B /* Oppgave4.swift */; };
+		73FF3BC026B8F3F6001FD25B /* Oppgave5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BBF26B8F3F6001FD25B /* Oppgave5.swift */; };
+		73FF3BC226B8F407001FD25B /* Oppgave6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BC126B8F407001FD25B /* Oppgave6.swift */; };
+		73FF3BC426B8F4C9001FD25B /* Oppgave7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BC326B8F4C9001FD25B /* Oppgave7.swift */; };
+		73FF3BC626B8F4D4001FD25B /* Oppgave8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BC526B8F4D4001FD25B /* Oppgave8.swift */; };
+		73FF3BC826B8F6B4001FD25B /* Quiz1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BC726B8F6B4001FD25B /* Quiz1.swift */; };
+		73FF3BCA26B8F6C0001FD25B /* Quiz2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BC926B8F6C0001FD25B /* Quiz2.swift */; };
+		73FF3BCC26B8F6CB001FD25B /* Quiz3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BCB26B8F6CB001FD25B /* Quiz3.swift */; };
+		73FF3BCE26B8F6D5001FD25B /* Quiz4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF3BCD26B8F6D5001FD25B /* Quiz4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +107,15 @@
 		73B6730026B8725F00325215 /* Fangst_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fangst_1.swift; sourceTree = "<group>"; };
 		73B6730126B8725F00325215 /* Spill3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spill3.swift; sourceTree = "<group>"; };
 		73B6730226B8726000325215 /* Ord3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ord3.swift; sourceTree = "<group>"; };
+		73FF3BBD26B8F3D0001FD25B /* Oppgave4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oppgave4.swift; sourceTree = "<group>"; };
+		73FF3BBF26B8F3F6001FD25B /* Oppgave5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oppgave5.swift; sourceTree = "<group>"; };
+		73FF3BC126B8F407001FD25B /* Oppgave6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oppgave6.swift; sourceTree = "<group>"; };
+		73FF3BC326B8F4C9001FD25B /* Oppgave7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oppgave7.swift; sourceTree = "<group>"; };
+		73FF3BC526B8F4D4001FD25B /* Oppgave8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oppgave8.swift; sourceTree = "<group>"; };
+		73FF3BC726B8F6B4001FD25B /* Quiz1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz1.swift; sourceTree = "<group>"; };
+		73FF3BC926B8F6C0001FD25B /* Quiz2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz2.swift; sourceTree = "<group>"; };
+		73FF3BCB26B8F6CB001FD25B /* Quiz3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz3.swift; sourceTree = "<group>"; };
+		73FF3BCD26B8F6D5001FD25B /* Quiz4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +190,15 @@
 				7303E5E526B4087F0062F69A /* Oppgave1.swift */,
 				7303E5E726B4088E0062F69A /* Oppgave2.swift */,
 				7303E5E926B408970062F69A /* Oppgave3.swift */,
+				73FF3BBD26B8F3D0001FD25B /* Oppgave4.swift */,
+				73FF3BBF26B8F3F6001FD25B /* Oppgave5.swift */,
+				73FF3BC126B8F407001FD25B /* Oppgave6.swift */,
+				73FF3BC326B8F4C9001FD25B /* Oppgave7.swift */,
+				73FF3BC526B8F4D4001FD25B /* Oppgave8.swift */,
+				73FF3BC726B8F6B4001FD25B /* Quiz1.swift */,
+				73FF3BC926B8F6C0001FD25B /* Quiz2.swift */,
+				73FF3BCB26B8F6CB001FD25B /* Quiz3.swift */,
+				73FF3BCD26B8F6D5001FD25B /* Quiz4.swift */,
 				7303E5C526B3E1030062F69A /* Main.storyboard */,
 				7303E5C826B3E10B0062F69A /* Assets.xcassets */,
 				7303E5CA26B3E10B0062F69A /* LaunchScreen.storyboard */,
@@ -277,17 +304,26 @@
 				73B6730426B8726000325215 /* Spill3.swift in Sources */,
 				73663E6C26B8777D00518123 /* GrattHydrogen2.swift in Sources */,
 				73B6730326B8726000325215 /* Fangst_1.swift in Sources */,
+				73FF3BC626B8F4D4001FD25B /* Oppgave8.swift in Sources */,
+				73FF3BC026B8F3F6001FD25B /* Oppgave5.swift in Sources */,
 				7303E5D426B3FF0F0062F69A /* Hydrogen.swift in Sources */,
 				73663E7226B877BF00518123 /* GronnHydrogen2.swift in Sources */,
+				73FF3BCA26B8F6C0001FD25B /* Quiz2.swift in Sources */,
 				73B6730526B8726000325215 /* Ord3.swift in Sources */,
 				7303E5C026B3E1030062F69A /* AppDelegate.swift in Sources */,
+				73FF3BC826B8F6B4001FD25B /* Quiz1.swift in Sources */,
 				73663E6E26B8779F00518123 /* GrattHydrogen.swift in Sources */,
+				73FF3BC426B8F4C9001FD25B /* Oppgave7.swift in Sources */,
 				7303E5EA26B408970062F69A /* Oppgave3.swift in Sources */,
 				7303E5E626B4087F0062F69A /* Oppgave1.swift in Sources */,
+				73FF3BCE26B8F6D5001FD25B /* Quiz4.swift in Sources */,
 				7303E5E826B4088E0062F69A /* Oppgave2.swift in Sources */,
 				73663E7026B877B400518123 /* GronnHydrogen.swift in Sources */,
+				73FF3BCC26B8F6CB001FD25B /* Quiz3.swift in Sources */,
 				7303E5C226B3E1030062F69A /* SceneDelegate.swift in Sources */,
 				73663E7626B877D400518123 /* BlaHydrogen2.swift in Sources */,
+				73FF3BBE26B8F3D0001FD25B /* Oppgave4.swift in Sources */,
+				73FF3BC226B8F407001FD25B /* Oppgave6.swift in Sources */,
 				73663E7426B877C900518123 /* BlaHydrogen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

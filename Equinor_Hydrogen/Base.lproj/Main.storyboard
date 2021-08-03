@@ -93,6 +93,12 @@
                                     <segue destination="VVw-HY-utt" kind="show" animates="NO" id="hes-Hy-hJP"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cqj-KZ-qJX">
+                                <rect key="frame" x="159" y="130" width="829" height="375"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.62792229649999998" green="0.81422257419999999" blue="0.86114293340000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="400"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBS-ZT-mFz">
                                 <rect key="frame" x="216" y="181" width="648" height="273"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -104,12 +110,6 @@ Du kan nå trykke på hver farge for å lese mer.
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cqj-KZ-qJX">
-                                <rect key="frame" x="159" y="130" width="829" height="375"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.62792229649999998" green="0.81422257419999999" blue="0.86114293340000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="400"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="j9m-3f-WVK"/>
@@ -385,6 +385,38 @@ Store CO2 utslipp </string>
             </objects>
             <point key="canvasLocation" x="2207.7777777777778" y="92.592592592592581"/>
         </scene>
+        <!--Quiz1-->
+        <scene sceneID="sWy-E0-sKf">
+            <objects>
+                <viewController id="2nW-kD-xLk" customClass="Quiz1" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NGe-Pb-V9F">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="PPe-5U-5a4">
+                                <rect key="frame" x="0.0" y="-47" width="1080" height="874"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nå er det på tide å teste kunnskapene dine om de ulike måtene hydrogen kan produseres på." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgo-WJ-oZM">
+                                <rect key="frame" x="269" y="313" width="542" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yp2-QN-lo2">
+                                <rect key="frame" x="232" y="233" width="615" height="269"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="gma-eY-kVf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L2E-x1-gOB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="856.66666666666663" y="820"/>
+        </scene>
         <!--Oppgave2-->
         <scene sceneID="xbt-la-8Xb">
             <objects>
@@ -395,6 +427,7 @@ Store CO2 utslipp </string>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="OPx-tg-RDk">
                                 <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                                <color key="backgroundColor" red="0.62792229649999998" green="0.81422257419999999" blue="0.86114293340000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sNa-BI-izS">
                                 <rect key="frame" x="120" y="103" width="843" height="533"/>
@@ -467,7 +500,7 @@ Store CO2 utslipp </string>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdi-ur-RnI">
                                 <rect key="frame" x="716" y="389" width="152" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.62792229649999998" green="0.81422257419999999" blue="0.86114293340000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Grått hydrogen">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -476,7 +509,7 @@ Store CO2 utslipp </string>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nb2-q5-Aa0">
                                 <rect key="frame" x="716" y="489" width="152" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.62792229649999998" green="0.81422257419999999" blue="0.86114293340000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Blått hydrogen">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -488,6 +521,9 @@ Store CO2 utslipp </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Neste"/>
+                                <connections>
+                                    <segue destination="jRp-x9-P9q" kind="show" id="Yxu-ML-MFe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8U5-hR-eQ0">
                                 <rect key="frame" x="574" y="289" width="131" height="36"/>
@@ -663,10 +699,10 @@ Store CO2 utslipp </string>
             </objects>
             <point key="canvasLocation" x="2207.7777777777778" y="838.51851851851848"/>
         </scene>
-        <!--Oppgave1-->
+        <!--Oppgave3-->
         <scene sceneID="RFk-KI-C7V">
             <objects>
-                <viewController id="jRp-x9-P9q" customClass="Oppgave1" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jRp-x9-P9q" customClass="Oppgave3" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XlO-sa-5YD">
                         <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -675,8 +711,8 @@ Store CO2 utslipp </string>
                                 <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="glg-yu-ogP">
-                                <rect key="frame" x="120" y="83.5" width="840" height="651"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="glg-yu-ogP">
+                                <rect key="frame" x="148" y="261" width="786" height="316"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.91013431549072266" green="0.69096869230270386" blue="0.44576418399810791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="600"/>
@@ -699,15 +735,15 @@ Store CO2 utslipp </string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h_grey.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zys-Fh-4li">
-                                <rect key="frame" x="167" y="561" width="270" height="172"/>
+                                <rect key="frame" x="167" y="469" width="270" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h_blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="BwQ-lW-Juh">
-                                <rect key="frame" x="422" y="561" width="266" height="172"/>
+                                <rect key="frame" x="407" y="469" width="266" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h_green.png" translatesAutoresizingMaskIntoConstraints="NO" id="kIq-Uj-Vdq">
-                                <rect key="frame" x="625" y="561" width="320" height="172"/>
+                                <rect key="frame" x="645" y="469" width="320" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -715,25 +751,28 @@ Store CO2 utslipp </string>
                         <viewLayoutGuide key="safeArea" id="uS6-zr-exs"/>
                     </view>
                     <navigationItem key="navigationItem" id="kJp-cX-wBo"/>
+                    <connections>
+                        <outlet property="boks" destination="glg-yu-ogP" id="OQ2-0z-0lE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OtG-dv-bVu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="881" y="3287"/>
+            <point key="canvasLocation" x="2207.7777777777778" y="1548.8888888888887"/>
         </scene>
-        <!--Oppgave1-->
+        <!--Oppgave4-->
         <scene sceneID="SLa-al-gmZ">
             <objects>
-                <viewController id="zBY-TG-dD9" customClass="Oppgave1" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zBY-TG-dD9" customClass="Oppgave4" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rsd-6Z-KWB">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Cz-U0-IoN">
                                 <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="akb-VO-qM9">
-                                <rect key="frame" x="120" y="83.5" width="840" height="651"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="akb-VO-qM9">
+                                <rect key="frame" x="120" y="84" width="825" height="537"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.91013431549072266" green="0.69096869230270386" blue="0.44576418399810791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="600"/>
@@ -748,15 +787,11 @@ Store CO2 utslipp </string>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h_grey.png" translatesAutoresizingMaskIntoConstraints="NO" id="zeT-zH-2Lw">
-                                <rect key="frame" x="167" y="561" width="270" height="172"/>
+                                <rect key="frame" x="167" y="529" width="270" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h_blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="aao-oV-HCi">
-                                <rect key="frame" x="422" y="561" width="266" height="172"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h_green.png" translatesAutoresizingMaskIntoConstraints="NO" id="NaG-Eo-sJi">
-                                <rect key="frame" x="625" y="561" width="320" height="172"/>
+                                <rect key="frame" x="422" y="529" width="266" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="money_rich.png" translatesAutoresizingMaskIntoConstraints="NO" id="En1-Pa-miC">
@@ -771,30 +806,37 @@ Store CO2 utslipp </string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h_green.png" translatesAutoresizingMaskIntoConstraints="NO" id="NaG-Eo-sJi">
+                                <rect key="frame" x="625" y="529" width="320" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="kZE-QV-iRp"/>
                     </view>
                     <navigationItem key="navigationItem" id="TT3-1g-7w6"/>
+                    <connections>
+                        <outlet property="boks" destination="akb-VO-qM9" id="ZZ0-c3-nWu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iQ1-AY-hoB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="682" y="4664"/>
+            <point key="canvasLocation" x="2207.7777777777778" y="2272.5925925925926"/>
         </scene>
-        <!--Oppgave1-->
+        <!--Oppgave5-->
         <scene sceneID="PfJ-CC-HaZ">
             <objects>
-                <viewController id="fD7-xh-hmW" customClass="Oppgave1" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fD7-xh-hmW" customClass="Oppgave5" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qTq-Ka-Xqj">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xf0-9l-fha">
                                 <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="1mX-is-gba">
-                                <rect key="frame" x="120" y="83.5" width="840" height="651"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1mX-is-gba">
+                                <rect key="frame" x="120" y="84" width="841" height="508"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.91013431549072266" green="0.69096869230270386" blue="0.44576418399810791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="600"/>
@@ -823,19 +865,19 @@ Store CO2 utslipp </string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h_grey.png" translatesAutoresizingMaskIntoConstraints="NO" id="XVH-wM-qXo">
-                                <rect key="frame" x="167" y="561" width="270" height="172"/>
+                                <rect key="frame" x="176" y="471" width="270" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h_blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="4KF-3B-wPd">
-                                <rect key="frame" x="422" y="561" width="266" height="172"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h_green.png" translatesAutoresizingMaskIntoConstraints="NO" id="QtU-5U-Un5">
-                                <rect key="frame" x="625" y="561" width="320" height="172"/>
+                                <rect key="frame" x="422" y="471" width="266" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="t_warm.png" translatesAutoresizingMaskIntoConstraints="NO" id="aus-9C-ZBp">
                                 <rect key="frame" x="518" y="89" width="534" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h_green.png" translatesAutoresizingMaskIntoConstraints="NO" id="QtU-5U-Un5">
+                                <rect key="frame" x="611" y="471" width="320" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -843,10 +885,13 @@ Store CO2 utslipp </string>
                         <viewLayoutGuide key="safeArea" id="SpQ-Py-oja"/>
                     </view>
                     <navigationItem key="navigationItem" id="QT9-Zt-9ho"/>
+                    <connections>
+                        <outlet property="boks" destination="1mX-is-gba" id="VIr-RL-22W"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oQQ-QE-Hqi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="721" y="5795"/>
+            <point key="canvasLocation" x="2207.7777777777778" y="2945.9259259259256"/>
         </scene>
         <!--Oppgave1-->
         <scene sceneID="re1-qJ-ztg">
@@ -900,14 +945,14 @@ Store CO2 utslipp </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rxf-eX-eav" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="728" y="7098"/>
+            <point key="canvasLocation" x="549" y="4143"/>
         </scene>
-        <!--Oppgave1-->
+        <!--Oppgave6-->
         <scene sceneID="hIP-uZ-Qx1">
             <objects>
-                <viewController id="SQf-Oh-9yV" customClass="Oppgave1" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="SQf-Oh-9yV" customClass="Oppgave6" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qqV-XG-p9h">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="W2K-Gr-U96">
@@ -922,8 +967,8 @@ Store CO2 utslipp </string>
                                 <rect key="frame" x="-63" y="32" width="336" height="251"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="KI5-8i-rUq">
-                                <rect key="frame" x="120" y="83.5" width="840" height="651"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KI5-8i-rUq">
+                                <rect key="frame" x="139" y="271" width="821" height="318"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.91013431549072266" green="0.69096869230270386" blue="0.44576418399810791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="600"/>
@@ -948,15 +993,15 @@ Store CO2 utslipp </string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h_grey.png" translatesAutoresizingMaskIntoConstraints="NO" id="8f0-a8-Xvh">
-                                <rect key="frame" x="167" y="561" width="270" height="172"/>
+                                <rect key="frame" x="159" y="492" width="270" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h_blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="VmB-q5-3O8">
-                                <rect key="frame" x="422" y="561" width="266" height="172"/>
+                                <rect key="frame" x="422" y="492" width="266" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h_green.png" translatesAutoresizingMaskIntoConstraints="NO" id="evX-o9-1TR">
-                                <rect key="frame" x="625" y="561" width="320" height="172"/>
+                                <rect key="frame" x="623" y="492" width="320" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -964,17 +1009,20 @@ Store CO2 utslipp </string>
                         <viewLayoutGuide key="safeArea" id="UlH-r5-5tI"/>
                     </view>
                     <navigationItem key="navigationItem" id="8cz-OI-UWo"/>
+                    <connections>
+                        <outlet property="boks" destination="KI5-8i-rUq" id="kZK-a4-ld8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xwx-Ns-0uk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="802" y="6521"/>
+            <point key="canvasLocation" x="2207.7777777777778" y="3658.5185185185182"/>
         </scene>
         <!--Oppgave1-->
         <scene sceneID="gWh-EZ-Gch">
             <objects>
                 <viewController id="uPG-xC-INY" customClass="Oppgave1" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zga-QL-JCb">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="L6j-zR-i3i">
@@ -998,9 +1046,6 @@ Store CO2 utslipp </string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Neste"/>
-                                <connections>
-                                    <segue destination="Zk2-Qp-2Pd" kind="show" id="AIp-Ik-ig6"/>
-                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h_grey.png" translatesAutoresizingMaskIntoConstraints="NO" id="tr6-Hm-HtL">
                                 <rect key="frame" x="138" y="299" width="354" height="254"/>
@@ -1030,18 +1075,18 @@ Store CO2 utslipp </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K6z-rO-ee8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1530.5555555555554" y="6520.74074074074"/>
+            <point key="canvasLocation" x="2208" y="4399"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="B1X-Ey-PjF">
             <objects>
                 <viewController id="Zk2-Qp-2Pd" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dMM-Kq-kbB">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="zUn-Ri-XT5">
-                                <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9li-Jo-cD4">
                                 <rect key="frame" x="125" y="221" width="146" height="141"/>
@@ -1072,7 +1117,7 @@ Store CO2 utslipp </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2yC-7k-HHc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1530.5555555555554" y="7339.9999999999991"/>
+            <point key="canvasLocation" x="2164" y="6221"/>
         </scene>
         <!--Bla Hydrogen-->
         <scene sceneID="CaW-MX-BaK">
@@ -1518,7 +1563,7 @@ Dyrere enn grått hydrogen og fortsatt noen utslipp.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D88-6v-TKj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2308" y="3726"/>
+            <point key="canvasLocation" x="549" y="4860"/>
         </scene>
         <!--Bla Hydrogen-->
         <scene sceneID="IhH-yV-exf">
@@ -1582,7 +1627,28 @@ Dyrere enn grått hydrogen og fortsatt noen utslipp.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fVE-M2-A15" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="832" y="4426"/>
+            <point key="canvasLocation" x="549" y="5561"/>
+        </scene>
+        <!--Quiz2-->
+        <scene sceneID="7Mn-xk-RbM">
+            <objects>
+                <viewController id="F2w-Fk-pCO" customClass="Quiz2" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yDc-wj-RHw">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pb0-nk-z6L">
+                                <rect key="frame" x="0.0" y="-47" width="1080" height="874"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="awx-Uc-Nho"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BQT-FV-Owl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="857" y="1516"/>
         </scene>
     </scenes>
     <resources>

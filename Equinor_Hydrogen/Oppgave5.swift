@@ -1,14 +1,14 @@
 //
-//  Oppgave3.swift
+//  Oppgave5.swift
 //  Equinor_Hydrogen
 //
-//  Created by Mariel Aulie Hinderaker on 30/07/2021.
+//  Created by Mariel Aulie Hinderaker on 03/08/2021.
 //  Copyright © 2021 Mariel Aulie Hinderaker. All rights reserved.
 //
 
 import UIKit
 
-class Oppgave3: UIViewController {
+class Oppgave5: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +20,7 @@ class Oppgave3: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBOutlet weak var boks: UIImageView!
-    
+
     /*
     // MARK: - Navigation
 
@@ -32,4 +31,5 @@ class Oppgave3: UIViewController {
     }
     */
 
+    @IBOutlet weak var boks: UIImageView!
 }

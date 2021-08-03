@@ -1,27 +1,22 @@
 //
-//  Oppgave3.swift
+//  Quiz3.swift
 //  Equinor_Hydrogen
 //
-//  Created by Mariel Aulie Hinderaker on 30/07/2021.
+//  Created by Mariel Aulie Hinderaker on 03/08/2021.
 //  Copyright © 2021 Mariel Aulie Hinderaker. All rights reserved.
 //
 
 import UIKit
 
-class Oppgave3: UIViewController {
+class Quiz3: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        boks.backgroundColor = .white
-        boks.layer.cornerRadius = 25.0
-        boks.layer.borderWidth = 1/UIScreen.main.nativeScale
-        boks.layer.borderColor = UIColor.black.cgColor
 
         // Do any additional setup after loading the view.
     }
     
-    @IBOutlet weak var boks: UIImageView!
-    
+
     /*
     // MARK: - Navigation
 
