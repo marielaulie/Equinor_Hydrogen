@@ -1,5 +1,5 @@
 //
-//  Quiz1.swift
+//  Quiz6.swift
 //  Equinor_Hydrogen
 //
 //  Created by Mariel Aulie Hinderaker on 03/08/2021.
@@ -8,15 +8,10 @@
 
 import UIKit
 
-class Quiz1: UIViewController {
+class Quiz6: UIViewController {
 
-    @IBOutlet weak var boks: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        boks.backgroundColor = .white
-        boks.layer.cornerRadius = 25.0
-        boks.layer.borderWidth = 1/UIScreen.main.nativeScale
-        boks.layer.borderColor = UIColor.black.cgColor
 
         // Do any additional setup after loading the view.
     }

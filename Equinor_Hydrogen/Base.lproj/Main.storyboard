@@ -38,7 +38,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Trykk her for å gå videre"/>
                                 <connections>
-                                    <segue destination="j8w-lr-y5w" kind="show" id="zhs-D5-qwd"/>
+                                    <segue destination="2nW-kD-xLk" kind="show" id="F8D-0u-ofW"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -146,7 +146,7 @@ Du kan nå trykke på hver farge for å lese mer.
             <objects>
                 <viewController id="VVw-HY-utt" customClass="GrattHydrogen" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hgb-w7-Fv1">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="dDJ-E5-aKY">
@@ -220,11 +220,11 @@ Du kan nå trykke på hver farge for å lese mer.
             <objects>
                 <viewController id="Kqn-3H-EnN" customClass="GrattHydrogen2" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5pK-VM-XcP">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="YZO-Qo-Y3P">
-                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                                <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AoO-Lv-r75">
                                 <rect key="frame" x="20" y="125" width="843" height="536"/>
@@ -343,7 +343,7 @@ Store CO2 utslipp </string>
             <objects>
                 <viewController id="bSc-nB-iGo" customClass="Oppgave1" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oC1-k6-pFV">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="tpy-FK-YH8">
@@ -397,6 +397,10 @@ Store CO2 utslipp </string>
                                 <rect key="frame" x="0.0" y="-47" width="1080" height="874"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yp2-QN-lo2">
+                                <rect key="frame" x="232" y="233" width="615" height="269"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nå er det på tide å teste kunnskapene dine om de ulike måtene hydrogen kan produseres på." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgo-WJ-oZM">
                                 <rect key="frame" x="269" y="313" width="542" height="108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -404,14 +408,23 @@ Store CO2 utslipp </string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yp2-QN-lo2">
-                                <rect key="frame" x="232" y="233" width="615" height="269"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nud-xA-AyG">
+                                <rect key="frame" x="983" y="742" width="77" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Neste"/>
+                                <connections>
+                                    <segue destination="F2w-Fk-pCO" kind="show" id="dkR-H5-gpO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="gma-eY-kVf"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ncj-6E-g8e"/>
+                    <connections>
+                        <outlet property="boks" destination="Yp2-QN-lo2" id="Ce7-iF-Gen"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L2E-x1-gOB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -422,11 +435,11 @@ Store CO2 utslipp </string>
             <objects>
                 <viewController id="bKq-e3-dm5" customClass="Oppgave2" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oRs-Ba-Or3">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="OPx-tg-RDk">
-                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                                <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                                 <color key="backgroundColor" red="0.62792229649999998" green="0.81422257419999999" blue="0.86114293340000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sNa-BI-izS">
@@ -704,7 +717,7 @@ Store CO2 utslipp </string>
             <objects>
                 <viewController id="jRp-x9-P9q" customClass="Oppgave3" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XlO-sa-5YD">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="RiK-vO-i7J">
@@ -764,7 +777,7 @@ Store CO2 utslipp </string>
             <objects>
                 <viewController id="zBY-TG-dD9" customClass="Oppgave4" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rsd-6Z-KWB">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Cz-U0-IoN">
@@ -828,7 +841,7 @@ Store CO2 utslipp </string>
             <objects>
                 <viewController id="fD7-xh-hmW" customClass="Oppgave5" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qTq-Ka-Xqj">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xf0-9l-fha">
@@ -952,7 +965,7 @@ Store CO2 utslipp </string>
             <objects>
                 <viewController id="SQf-Oh-9yV" customClass="Oppgave6" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qqV-XG-p9h">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="W2K-Gr-U96">
@@ -1022,7 +1035,7 @@ Store CO2 utslipp </string>
             <objects>
                 <viewController id="uPG-xC-INY" customClass="Oppgave1" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zga-QL-JCb">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="L6j-zR-i3i">
@@ -1124,7 +1137,7 @@ Store CO2 utslipp </string>
             <objects>
                 <viewController id="O8C-Bh-buO" customClass="BlaHydrogen" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rYy-Pm-BBF">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="iWB-qR-Ta8">
@@ -1198,11 +1211,11 @@ Store CO2 utslipp </string>
             <objects>
                 <viewController id="6Gk-Oc-aSq" customClass="GronnHydrogen2" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E2V-P0-qoH">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ugy-mU-DND">
-                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                                <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BEm-fH-aYU">
                                 <rect key="frame" x="20" y="118" width="843" height="536"/>
@@ -1297,11 +1310,11 @@ elektrisitet
             <objects>
                 <viewController id="AOH-wi-1jw" customClass="BlaHydrogen2" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DGq-4v-6K5">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="9JY-qT-usl">
-                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                                <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2il-uc-dgt">
                                 <rect key="frame" x="20" y="107" width="843" height="536"/>
@@ -1425,7 +1438,7 @@ Dyrere enn grått hydrogen og fortsatt noen utslipp.</string>
             <objects>
                 <viewController id="g8b-nb-esK" customClass="GrattHydrogen" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="geh-Tw-sCh">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="gcK-L5-zB3">
@@ -1641,20 +1654,304 @@ Dyrere enn grått hydrogen og fortsatt noen utslipp.</string>
                                 <rect key="frame" x="0.0" y="-47" width="1080" height="874"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SuG-ls-qPC">
+                                <rect key="frame" x="249" y="79" width="581" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hvilken type Hydrogenproduksjon er billigst?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DA3-K7-aZq">
+                                <rect key="frame" x="300" y="128" width="479" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qf9-2Z-uNk">
+                                <rect key="frame" x="416" y="282" width="249" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <inset key="contentEdgeInsets" minX="30" minY="0.0" maxX="30" maxY="0.0"/>
+                                <state key="normal" title="Blått Hydrogen">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="trykkA:" destination="F2w-Fk-pCO" eventType="touchUpInside" id="14B-DY-6eS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ay6-MI-xiu">
+                                <rect key="frame" x="270" y="369" width="249" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <inset key="contentEdgeInsets" minX="30" minY="0.0" maxX="30" maxY="0.0"/>
+                                <state key="normal" title="Grønt Hydrogen">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="trykkB:" destination="F2w-Fk-pCO" eventType="touchUpInside" id="acs-Wb-7aa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hwf-8m-Y4t">
+                                <rect key="frame" x="563" y="369" width="249" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <inset key="contentEdgeInsets" minX="30" minY="0.0" maxX="30" maxY="0.0"/>
+                                <state key="normal" title="Grått Hydrogen">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="trykkC:" destination="F2w-Fk-pCO" eventType="touchUpInside" id="1d7-OI-pTa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TBh-Fy-Jqw">
+                                <rect key="frame" x="373" y="524" width="332" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Feil... Trykk her for å se hvorfor.">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bpL-z2-8dD" kind="show" id="PaR-Nh-7aH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZB-6z-FUx">
+                                <rect key="frame" x="378" y="732" width="329" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Riktig! Trykk her for å gå videre">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="72V-rv-iaK" kind="show" id="p8R-M4-5vB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="awx-Uc-Nho"/>
                     </view>
+                    <navigationItem key="navigationItem" id="IN2-T4-whE"/>
+                    <connections>
+                        <outlet property="altA" destination="Qf9-2Z-uNk" id="pWW-qg-2SD"/>
+                        <outlet property="altB" destination="Ay6-MI-xiu" id="mkM-7z-Ndu"/>
+                        <outlet property="altC" destination="hwf-8m-Y4t" id="0d2-za-62c"/>
+                        <outlet property="boks" destination="SuG-ls-qPC" id="Nl5-d0-doZ"/>
+                        <outlet property="feil" destination="TBh-Fy-Jqw" id="Jf4-XE-PE7"/>
+                        <outlet property="riktig" destination="bZB-6z-FUx" id="CKP-i6-4xH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BQT-FV-Owl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="857" y="1516"/>
+            <point key="canvasLocation" x="857" y="1515"/>
+        </scene>
+        <!--Quiz3-->
+        <scene sceneID="K6d-Wn-hyL">
+            <objects>
+                <viewController id="bpL-z2-8dD" customClass="Quiz3" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ODM-gV-qAl">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="76E-BR-3ES">
+                                <rect key="frame" x="0.0" y="-47" width="1080" height="874"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yef-U2-rKw">
+                                <rect key="frame" x="249" y="79" width="581" height="495"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Desverre, feil svar!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVG-Fh-gPt">
+                                <rect key="frame" x="442" y="128" width="197" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grått Hydrogen er billigst, deretter blått Hydrogen, mens Grønt Hydrogen koster mest." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSG-Qf-fG4">
+                                <rect key="frame" x="308" y="235" width="465" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Skjermbilde 2021-08-03 kl. 06.24.18.png" translatesAutoresizingMaskIntoConstraints="NO" id="gyA-jy-JJM">
+                                <rect key="frame" x="397" y="364" width="286" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="End-KK-shY">
+                                <rect key="frame" x="996" y="748" width="64" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Neste"/>
+                                <connections>
+                                    <segue destination="72V-rv-iaK" kind="show" id="p6Z-VW-rNp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="jzj-TW-TXM"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="peE-oF-Cwq"/>
+                    <connections>
+                        <outlet property="boks" destination="yef-U2-rKw" id="Blo-Yj-FFg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q4w-Jm-IBz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="222.77777777777777" y="1514.8148148148148"/>
+        </scene>
+        <!--Quiz4-->
+        <scene sceneID="sPH-Vt-yLE">
+            <objects>
+                <viewController id="72V-rv-iaK" customClass="Quiz4" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="07o-Bv-FFo">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="mmu-cf-1RS">
+                                <rect key="frame" x="0.0" y="-47" width="1080" height="874"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ecO-is-aj9">
+                                <rect key="frame" x="249" y="79" width="581" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hvilken to typer Hydrogenproduksjon er mest miljøvennlige? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygj-MT-xGt">
+                                <rect key="frame" x="300" y="128" width="649" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ECn-Vm-o9W">
+                                <rect key="frame" x="416" y="282" width="249" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <inset key="contentEdgeInsets" minX="30" minY="0.0" maxX="30" maxY="0.0"/>
+                                <state key="normal" title="Blått Hydrogen">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="trykkA:" destination="72V-rv-iaK" eventType="touchUpInside" id="cmP-al-O2y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bw7-HI-heh">
+                                <rect key="frame" x="270" y="369" width="249" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <inset key="contentEdgeInsets" minX="30" minY="0.0" maxX="30" maxY="0.0"/>
+                                <state key="normal" title="Grønt Hydrogen">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="trykkB:" destination="72V-rv-iaK" eventType="touchUpInside" id="j2f-EK-tKP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n8N-Od-xrj">
+                                <rect key="frame" x="563" y="369" width="249" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <inset key="contentEdgeInsets" minX="30" minY="0.0" maxX="30" maxY="0.0"/>
+                                <state key="normal" title="Grått Hydrogen">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="trykkC:" destination="72V-rv-iaK" eventType="touchUpInside" id="9Vs-fP-fPL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C3A-8V-nLl">
+                                <rect key="frame" x="373" y="524" width="332" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Feil... Trykk her for å se hvorfor.">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Bq-Kb-zLa">
+                                <rect key="frame" x="378" y="732" width="329" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Riktig! Trykk her for å gå videre">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="BMo-oY-cYz"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7cl-6i-xya"/>
+                    <connections>
+                        <outlet property="altA" destination="ECn-Vm-o9W" id="r2E-GG-GXu"/>
+                        <outlet property="altB" destination="bw7-HI-heh" id="cz1-pj-Ozm"/>
+                        <outlet property="altC" destination="n8N-Od-xrj" id="nWE-gj-QgI"/>
+                        <outlet property="boks" destination="ecO-is-aj9" id="51G-YF-rji"/>
+                        <outlet property="feil" destination="C3A-8V-nLl" id="p2O-ZX-r7H"/>
+                        <outlet property="riktig" destination="5Bq-Kb-zLa" id="17H-BB-FhD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s7k-Dx-8QO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="857" y="2288"/>
+        </scene>
+        <!--Quiz3-->
+        <scene sceneID="I7L-f8-cPg">
+            <objects>
+                <viewController id="hv9-rK-DnT" customClass="Quiz3" customModule="Equinor_Hydrogen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TSU-ko-B3W">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="e6M-y3-dM0">
+                                <rect key="frame" x="0.0" y="-47" width="1080" height="874"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="En2-eF-tjV">
+                                <rect key="frame" x="249" y="79" width="581" height="495"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Desverre, feil svar!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjk-cd-HaY">
+                                <rect key="frame" x="442" y="128" width="197" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grått Hydrogen er billigst, deretter blått Hydrogen, mens Grønt Hydrogen koster mest." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uQl-bJ-Ieh">
+                                <rect key="frame" x="308" y="235" width="465" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Skjermbilde 2021-08-03 kl. 06.24.18.png" translatesAutoresizingMaskIntoConstraints="NO" id="Eb3-UL-0aT">
+                                <rect key="frame" x="397" y="364" width="286" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xf3-mT-UsD">
+                                <rect key="frame" x="996" y="748" width="64" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Neste"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Wkc-1q-3aY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="c4g-WV-2my"/>
+                    <connections>
+                        <outlet property="boks" destination="En2-eF-tjV" id="dw7-x1-uAz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b4r-sN-yhI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="223" y="2287"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="p6Z-VW-rNp"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="1-12387_cartoon-cage-transparent-background-clipart.png" width="630.75" height="661.5"/>
         <image name="H20_a.png" width="398" height="348"/>
         <image name="Metan.png" width="225" height="227.25"/>
+        <image name="Skjermbilde 2021-08-03 kl. 06.24.18.png" width="336" height="195"/>
         <image name="arrow.right" catalog="system" width="128" height="98"/>
         <image name="background_1-2.png" width="1080" height="810"/>
         <image name="checkmark" catalog="system" width="128" height="114"/>
