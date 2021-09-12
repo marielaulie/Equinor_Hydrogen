@@ -57,7 +57,7 @@ class Popup2: UIViewController {
         tekst.textColor = .black
         feltTittel.textColor = .black
         bil.isHidden = true
-        tekst.text = "Det er mulig for biler å benytte hydrogen som drivstoff. Elbilteknologien har imidlertid kommet så langt at hydrogen sliter med å konkurrere på dette området"
+        tekst.text = "Det er mulig for biler å benytte hydrogen som drivstoff. Hydrogenbiler og elbiler er utslippsfrie transportmidler. "
         feltTittel.text = "Bil"
         feltNeste.setTitleColor(.systemBlue, for: .normal)
         feltBilde.setImage(UIImage(named: "h2_bil.png"), for: .normal)
@@ -76,7 +76,7 @@ class Popup2: UIViewController {
         tekst.textColor = .black
         feltTittel.textColor = .black
         buss.isHidden = true
-        tekst.text = "Her kan hydrogen også brukes som drivstoff. Elektrisitet er en sterk konkurrent for “halvtunge” transportmiddel"
+        tekst.text = "Hydrogen kan også bli brukt som drivstoff i busser. Hydrogen som drivstoff vil være å foretrekke på lange bussturer da det har en lav vekt og kort fylletid. På de kortere bussrutene er batterier et godt alternativ."
         feltTittel.text = "Buss"
         feltNeste.setTitleColor(.systemBlue, for: .normal)
         feltBilde.setImage(UIImage(named: "h2_buss.png"), for: .normal)
@@ -94,7 +94,7 @@ class Popup2: UIViewController {
         tekst.textColor = .black
         feltTittel.textColor = .black
         trailer.isHidden = true
-        tekst.text = " Her kan hydrogen også brukes som drivstoff. Jo større og tyngre lastebilen er jo større fordel har hydrogen mot elektriske batterier."
+        tekst.text = " Her kan hydrogen også brukes som drivstoff. Jo større og tyngre lastebilen er, desto større fordel har hydrogen mot elektriske batterier."
         feltTittel.text = "Lastebil"
         feltNeste.setTitleColor(.systemBlue, for: .normal)
         feltBilde.setImage(UIImage(named: "h2_truck.png"), for: .normal)
@@ -112,7 +112,7 @@ class Popup2: UIViewController {
         feltTittel.textColor = .black
         tog.isHidden = true
         feltTittel.text = "Tog"
-        tekst.text = "For tog vil hydrogen være en god løsning. Tog krever mye energi og et batteri ville eventuelt måtte være veldig stort. Da er hydrogen en god løsning."
+        tekst.text = "Tog krever mye energi derfor vil bruk av batterier bli mindre effektivt enn Hydrogen. Hydrogen er derfor god løsning sammen med elektrifiseringen av togene."
         feltNeste.setTitleColor(.systemBlue, for: .normal)
         feltBilde.setImage(UIImage(named: "h2_train.png"), for: .normal)
         A += 1
@@ -130,7 +130,7 @@ class Popup2: UIViewController {
         feltTittel.textColor = .black
         ferje.isHidden = true
         feltTittel.text = "Ferje og Skip"
-        tekst.text = "Verdens første hydrogenferje bygges nå i Norge! Også for store skip er hydrogenteknolgien under utvikling. Hydrogen vil kunne dekarbonisere en sektor som i dag står for store utslipp."
+        tekst.text = "Verdens første hydrogenferje skal snart settes i drift i Rogaland, i Norge! Dette er et eksempel på hvordan transportsektoren er i endring for å bli mer miljøvennlige. For skip er Hydrogenteknologien under en enorm utvikling. Hydrogen vil kunne fjerne utslippene fra skip og ferjer."
         feltNeste.setTitleColor(.systemBlue, for: .normal)
         feltBilde.setImage(UIImage(named: "h2_ship.png"), for: .normal)
         A += 1
@@ -146,7 +146,7 @@ class Popup2: UIViewController {
         feltTittel.textColor = .black
         varme.isHidden = true
         feltTittel.text = "Varme"
-        tekst.text = "Hydrogen kan erstatte bruk av naturgass til varme både i husholdninger og industri"
+        tekst.text = "Hydrogen kan erstatte bruken av naturgass som brukes til  varme både i husholdninger og industri."
         feltNeste.setTitleColor(.systemBlue, for: .normal)
         feltBilde.setImage(UIImage(named: "h2_heating.png"), for: .normal)
         A += 1
@@ -162,7 +162,7 @@ class Popup2: UIViewController {
         feltTittel.textColor = .black
         industri.isHidden = true
         feltTittel.text = "Industri"
-        tekst.text = "I industrien har hydrogen mange bruksområder. Det kan brukes til varme, kjøling, kjemikal og kraft for å nevne noen."
+        tekst.text = "I industrien har hydrogen mange bruksområder. Det kan for eksempel  brukes til varme, kjøling, kjemikalier, kraft og i industrielle maskiner."
         feltNeste.setTitleColor(.systemBlue, for: .normal)
         feltBilde.setImage(UIImage(named: "h2_industry.png"), for: .normal)
         A += 1
@@ -178,7 +178,7 @@ class Popup2: UIViewController {
         feltTittel.textColor = .black
         fly.isHidden = true
         feltTittel.text = "Fly"
-        tekst.text = "Et Hydrogen fly kan bruke hydrogen som kraftkilde."
+        tekst.text = "Et hydrogenfly kan bruke hydrogen som drivstoff."
         feltNeste.setTitleColor(.systemBlue, for: .normal)
         feltBilde.setImage(UIImage(named: "h2_plane.png"), for: .normal)
         A += 1

@@ -58,6 +58,18 @@ class Quiz6: UIViewController {
             riktig.setTitleColor(.systemGreen, for: .normal)
         }
     }
+    @IBAction func hint(_ sender: Any) {
+        showAlert()
+        
+    }
+    func showAlert(){
+            let alert = UIAlertController(title: "", message: "Ordet ligner på energiformen som kreves for å lage det.", preferredStyle: .alert)
+            
+            alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: {action in print("tapped Dismiss") }))
+    
+            present(alert, animated: true)
+        }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
